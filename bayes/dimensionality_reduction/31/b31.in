@@ -1,0 +1,90 @@
+{
+  "app_params": {
+    "output_dimensions": [
+      2,
+      4,
+      8,
+      16,
+      32
+    ]
+  },
+  "app_proc": "dimensionality_reduction_risp",
+  "bayes_iteration": 0,
+  "bayes_iteration_type": "median",
+  "command": "bin/dimensionality_reduction_risp -a train --app_params dimensionality_reduction.json --eons_params eons.json --proc_params risp.json --sim_time 128 --threads 4",
+  "decoder": {
+    "base": [
+      "ttls",
+      "rate"
+    ]
+  },
+  "encoder": {
+    "base": [
+      "val",
+      "spike",
+      "rate",
+      "spikes",
+      "temporal"
+    ]
+  },
+  "eons_params": {
+    "starting_edges": [
+      64,
+      96,
+      128
+    ]
+  },
+  "fitness_metric": "fitness",
+  "iterations_per_test": 10,
+  "num_best_networks": 0,
+  "opt_params": {
+    "n_random_starts": 5,
+    "random_state": 26348
+  },
+  "optimizer": "python ../utils/scikit_opt.py",
+  "proc_params": {
+    "discrete": [
+      true,
+      false
+    ],
+    "leak_mode": [
+      "all",
+      "none"
+    ],
+    "max_delay": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "max_threshold": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "max_weight": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "min_potential": [
+      -8,
+      -4,
+      -2,
+      -1
+    ],
+    "min_weight": [
+      -4,
+      -2,
+      -1
+    ]
+  },
+  "python_app": false,
+  "test_episodes": 0,
+  "test_iteration_type": "none"
+}
