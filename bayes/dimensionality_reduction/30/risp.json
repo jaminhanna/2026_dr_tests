@@ -1,0 +1,4 @@
+{
+  "min_threshold": 1,
+  "spike_value_factor": 16
+}
