@@ -1,0 +1,13 @@
+{
+  "convolution": {
+    "image_height": 8,
+    "image_width": 8,
+    "kernel_size": 3,
+    "valid_padding": true
+  },
+  "distance_metric": "isi",
+  "input_csv": "digits_training_data.csv",
+  "labels_csv": "digits_training_label.csv",
+  "reduction_method": "henry",
+  "sim_time": 8
+}
