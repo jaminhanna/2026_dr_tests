@@ -1,0 +1,7 @@
+{
+  "distance_metric": "isi",
+  "input_csv": "digits_training_data.csv",
+  "labels_csv": "digits_training_label.csv",
+  "reduction_method": "henry",
+  "sim_time": 128
+}
