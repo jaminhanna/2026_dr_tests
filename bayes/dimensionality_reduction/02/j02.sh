@@ -18,14 +18,15 @@ then
   make bin/bayes || exit 1
 fi
 cd cpp-apps
+mkdir 02
 cp $dir/dimensionality_reduction.json \
    $dir/eons.json \
-   $dir/risp.json .
+   $dir/risp.json 02
 ../bin/bayes \
   --input_file $dir/b02.in \
   --output_file $dir/b02.out \
   --n_calls 100 \
   -d $dir/networks
 deactivate
-rm dimensionality_reduction.json eons.json risp.json
+rm -r 02
 cd $dir

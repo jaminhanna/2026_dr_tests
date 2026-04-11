@@ -11,7 +11,7 @@
   "app_proc": "dimensionality_reduction_risp",
   "bayes_iteration": 0,
   "bayes_iteration_type": "median",
-  "command": "bin/dimensionality_reduction_risp -a train --app_params dimensionality_reduction.json --eons_params eons.json --proc_params risp.json --sim_time 64 --threads 4",
+  "command": "bin/dimensionality_reduction_risp -a train --app_params 27/dimensionality_reduction.json --eons_params 27/eons.json --proc_params 27/risp.json --sim_time 64 --threads 4",
   "decoder": {
     "base": [
       "ttls",
