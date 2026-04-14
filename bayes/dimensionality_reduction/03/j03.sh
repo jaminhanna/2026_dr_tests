@@ -1,10 +1,10 @@
 #!/bin/sh
 #SBATCH --account=ISAAC-UTK0319
-#SBATCH --partition=campus
-#SBATCH --qos=campus
+#SBATCH --partition=long
+#SBATCH --qos=long
 #SBATCH --nodes=1
 #SBATCH --ntasks=41
-#SBATCH --time=24:00:00
+#SBATCH --time=06-00:00:00
 #SBATCH --output=j03.out
 #SBATCH --error=j03.err
 
@@ -22,7 +22,7 @@ mkdir 03
 cp $dir/dimensionality_reduction.json \
    $dir/eons.json \
    $dir/risp.json 03
-../bin/bayes \
+time ../bin/bayes \
   --input_file $dir/b03.in \
   --output_file $dir/b03.out \
   --n_calls 100 \

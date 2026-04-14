@@ -22,7 +22,7 @@ mkdir 25
 cp $dir/dimensionality_reduction.json \
    $dir/eons.json \
    $dir/risp.json 25
-../bin/bayes \
+time ../bin/bayes \
   --input_file $dir/b25.in \
   --output_file $dir/b25.out \
   --n_calls 5 \
