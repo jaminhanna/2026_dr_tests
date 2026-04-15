@@ -11,7 +11,7 @@
   "app_proc": "dimensionality_reduction_risp",
   "bayes_iteration": 0,
   "bayes_iteration_type": "median",
-  "command": "bin/dimensionality_reduction_risp -a train --app_params 18/dimensionality_reduction.json --eons_params 18/eons.json --proc_params 18/risp.json --sim_time 8 --threads 4",
+  "command": "bin/dimensionality_reduction_risp -a train --app_params 18/dimensionality_reduction.json --eons_params 18/eons.json --proc_params 18/risp.json --sim_time 8 --threads 13 --epochs 10",
   "decoder": {
     "base": [
       "ttls",
@@ -35,7 +35,7 @@
     ]
   },
   "fitness_metric": "fitness",
-  "iterations_per_test": 10,
+  "iterations_per_test": 3,
   "num_best_networks": 0,
   "opt_params": {
     "n_random_starts": 5,

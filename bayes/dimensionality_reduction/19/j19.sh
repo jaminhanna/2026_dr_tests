@@ -3,7 +3,7 @@
 #SBATCH --partition=campus
 #SBATCH --qos=campus
 #SBATCH --nodes=1
-#SBATCH --ntasks=41
+#SBATCH --ntasks=40
 #SBATCH --time=24:00:00
 #SBATCH --output=j19.out
 #SBATCH --error=j19.err

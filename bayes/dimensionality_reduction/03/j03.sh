@@ -1,10 +1,10 @@
 #!/bin/sh
 #SBATCH --account=ISAAC-UTK0319
-#SBATCH --partition=long
-#SBATCH --qos=long
+#SBATCH --partition=campus
+#SBATCH --qos=campus
 #SBATCH --nodes=1
-#SBATCH --ntasks=41
-#SBATCH --time=06-00:00:00
+#SBATCH --ntasks=40
+#SBATCH --time=24:00:00
 #SBATCH --output=j03.out
 #SBATCH --error=j03.err
 
