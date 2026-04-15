@@ -9,7 +9,8 @@
 #SBATCH --error=j02.err
 
 repos=/lustre/isaac24/scratch/jhanna8/repos
-dir=$repos/2026_dr_tests/bayes/dimensionality_reduction/02
+repo=$repos/2026_dr_tests
+dir=$repo/bayes/dimensionality_reduction/02
 fr=$repos/framework
 cd $fr
 source pyframework/bin/activate
@@ -18,15 +19,25 @@ then
   make bin/bayes || exit 1
 fi
 cd cpp-apps
-mkdir 02
+mkdir -p 02
 cp $dir/dimensionality_reduction.json \
    $dir/eons.json \
    $dir/risp.json 02
+mkdir -p XX
+if test ! -f XX/digits_training_data.csv
+then
+  if test ! -f $repo/digits_training_data.csv
+  then
+    ( cd $repo
+    tar xzf digits.tar.gz )
+  fi
+  cp $repo/*.csv $repo/*.json XX
+fi
 ../bin/bayes \
   --input_file $dir/b02.in \
   --output_file $dir/b02.out \
   --n_calls 100 \
   -d $dir/networks
 deactivate
-rm -r 02
+rm -rf 02
 cd $dir

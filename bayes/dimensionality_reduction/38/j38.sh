@@ -9,7 +9,8 @@
 #SBATCH --error=j38.err
 
 repos=/lustre/isaac24/scratch/jhanna8/repos
-dir=$repos/2026_dr_tests/bayes/dimensionality_reduction/38
+repo=$repos/2026_dr_tests
+dir=$repo/bayes/dimensionality_reduction/38
 fr=$repos/framework
 cd $fr
 source pyframework/bin/activate
@@ -18,15 +19,25 @@ then
   make bin/bayes || exit 1
 fi
 cd cpp-apps
-mkdir 38
+mkdir -p 38
 cp $dir/dimensionality_reduction.json \
    $dir/eons.json \
    $dir/risp.json 38
+mkdir -p XX
+if test ! -f XX/digits_training_data.csv
+then
+  if test ! -f $repo/digits_training_data.csv
+  then
+    ( cd $repo
+    tar xzf digits.tar.gz )
+  fi
+  cp $repo/*.csv $repo/*.json XX
+fi
 time ../bin/bayes \
   --input_file $dir/b38.in \
   --output_file $dir/b38.out \
   --n_calls 25 \
   -d $dir/networks
 deactivate
-rm -r 38
+rm -rf 38
 cd $dir

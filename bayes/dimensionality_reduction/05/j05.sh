@@ -9,7 +9,8 @@
 #SBATCH --error=j05.err
 
 repos=/lustre/isaac24/scratch/jhanna8/repos
-dir=$repos/2026_dr_tests/bayes/dimensionality_reduction/05
+repo=$repos/2026_dr_tests
+dir=$repo/bayes/dimensionality_reduction/05
 fr=$repos/framework
 cd $fr
 source pyframework/bin/activate
@@ -18,15 +19,25 @@ then
   make bin/bayes || exit 1
 fi
 cd cpp-apps
-mkdir 05
+mkdir -p 05
 cp $dir/dimensionality_reduction.json \
    $dir/eons.json \
    $dir/risp.json 05
+mkdir -p XX
+if test ! -f XX/digits_training_data.csv
+then
+  if test ! -f $repo/digits_training_data.csv
+  then
+    ( cd $repo
+    tar xzf digits.tar.gz )
+  fi
+  cp $repo/*.csv $repo/*.json XX
+fi
 ../bin/bayes \
   --input_file $dir/b05.in \
   --output_file $dir/b05.out \
   --n_calls 20 \
   -d $dir/networks
 deactivate
-rm -r 05
+rm -rf 05
 cd $dir

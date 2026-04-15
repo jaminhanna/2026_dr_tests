@@ -9,7 +9,8 @@
 #SBATCH --error=j31.err
 
 repos=/lustre/isaac24/scratch/jhanna8/repos
-dir=$repos/2026_dr_tests/bayes/dimensionality_reduction/31
+repo=$repos/2026_dr_tests
+dir=$repo/bayes/dimensionality_reduction/31
 fr=$repos/framework
 cd $fr
 source pyframework/bin/activate
@@ -18,15 +19,25 @@ then
   make bin/bayes || exit 1
 fi
 cd cpp-apps
-mkdir 31
+mkdir -p 31
 cp $dir/dimensionality_reduction.json \
    $dir/eons.json \
    $dir/risp.json 31
+mkdir -p XX
+if test ! -f XX/digits_training_data.csv
+then
+  if test ! -f $repo/digits_training_data.csv
+  then
+    ( cd $repo
+    tar xzf digits.tar.gz )
+  fi
+  cp $repo/*.csv $repo/*.json XX
+fi
 time ../bin/bayes \
   --input_file $dir/b31.in \
   --output_file $dir/b31.out \
   --n_calls 5 \
   -d $dir/networks
 deactivate
-rm -r 31
+rm -rf 31
 cd $dir

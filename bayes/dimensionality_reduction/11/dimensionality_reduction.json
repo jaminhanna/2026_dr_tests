@@ -6,7 +6,7 @@
     "valid_padding": true
   },
   "distance_metric": "SPIKE",
-  "input_csv": "digits_training_data.csv",
-  "labels_csv": "digits_training_label.csv",
+  "input_csv": "XX/digits_training_data.csv",
+  "labels_csv": "XX/digits_training_label.csv",
   "reduction_method": "henry"
 }
