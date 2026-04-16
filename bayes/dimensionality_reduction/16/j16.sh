@@ -1,8 +1,8 @@
 #!/bin/sh
 #SBATCH --account=ISAAC-UTK0319
-# #SBATCH --partition=campus
+#SBATCH --partition=campus
 #SBATCH --qos=campus
-# #SBATCH --nodes=1
+#SBATCH --nodes=1
 #SBATCH --ntasks=40
 #SBATCH --time=24:00:00
 #SBATCH --output=j16.out

@@ -1,14 +1,14 @@
 #!/bin/bash
 #SBATCH --account=ISAAC-UTK0319
-# #SBATCH --partition=campus
+#SBATCH --partition=campus
 #SBATCH --qos=campus
-# #SBATCH --nodes=1
+#SBATCH --nodes=1
 #SBATCH --ntasks=40
 #SBATCH --time=24:00:00
 #SBATCH --output=j27.out
 #SBATCH --error=j27.err
 
-repos=/mnt/nfs/home/jhanna8/repos
+repos=/lustre/isaac24/scratch/jhanna8/repos
 repo=$repos/2026_dr_tests
 dir=$repo/bayes/dimensionality_reduction/27
 fr=$repos/framework
