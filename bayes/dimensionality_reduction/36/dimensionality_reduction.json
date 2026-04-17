@@ -1,7 +1,7 @@
 {
   "convolution": {
     "image_height": 8,
-    "image_weight": 8,
+    "image_width": 8,
     "kernel_size": 3,
     "valid_padding": false
   },
