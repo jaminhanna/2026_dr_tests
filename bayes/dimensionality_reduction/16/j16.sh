@@ -8,7 +8,7 @@
 #SBATCH --output=j16.out
 #SBATCH --error=j16.err
 
-repos=/mnt/nfs/home/jhanna8/repos
+repos=/lustre/isaac24/scratch/jhanna8/repos
 repo=$repos/2026_dr_tests
 dir=$repo/bayes/dimensionality_reduction/16
 fr=$repos/framework
