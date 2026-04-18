@@ -1,0 +1,676 @@
+newgraph
+  x_translate 0
+  y_translate 0
+xaxis
+  min 0
+  max 6
+  size 1.25
+  no_auto_hash_marks
+  no_auto_hash_labels
+  hash_labels
+    hjl vjc
+    fontsize 9
+    rotate -90
+  label : sim_time
+yaxis
+  size 1
+  label : Fitness
+xaxis hash_at 1 hash_label at 1 : 64
+newline pts 1 -1 1 -0.630257
+newline pts 1 0.155588 1 -0.0317958
+newline poly pcfill 1 1 0 pts
+     0.5 -0.0317958 1.5 -0.0317958
+     1.5 -0.630257 0.5 -0.630257
+newline pts 1.5 -0.0599363 1.25 -0.0599363
+newline pts 0.5 -0.0599363 0.75 -0.0599363
+newcurve marktype circle fill 0 marksize 0.25 pts 1 -0.289823
+xaxis hash_at 2 hash_label at 2 : 32
+newline pts 2 -1 2 -0.181214
+newline pts 2 0.116316 2 0.0362447
+newline poly pcfill 1 1 0 pts
+     1.5 0.0362447 2.5 0.0362447
+     2.5 -0.181214 1.5 -0.181214
+newline pts 2.5 -0.0417314 2.25 -0.0417314
+newline pts 1.5 -0.0417314 1.75 -0.0417314
+newcurve marktype circle fill 0 marksize 0.25 pts 2 -0.119942
+xaxis hash_at 3 hash_label at 3 : 128
+newline pts 3 -0.980314 3 -0.503286
+newline pts 3 0.0992975 3 0.0435373
+newline poly pcfill 1 1 0 pts
+     2.5 0.0435373 3.5 0.0435373
+     3.5 -0.503286 2.5 -0.503286
+newline pts 3.5 -0.0689288 3.25 -0.0689288
+newline pts 2.5 -0.0689288 2.75 -0.0689288
+newcurve marktype circle fill 0 marksize 0.25 pts 3 -0.206732
+xaxis hash_at 4 hash_label at 4 : 16
+newline pts 4 -0.982043 4 -0.0828624
+newline pts 4 0.133785 4 0.0716401
+newline poly pcfill 1 1 0 pts
+     3.5 0.0716401 4.5 0.0716401
+     4.5 -0.0828624 3.5 -0.0828624
+newline pts 4.5 -0.00138662 4.25 -0.00138662
+newline pts 3.5 -0.00138662 3.75 -0.00138662
+newcurve marktype circle fill 0 marksize 0.25 pts 4 -0.0524756
+xaxis hash_at 5 hash_label at 5 : 8
+newline pts 5 -0.183589 5 -0.0281184
+newline pts 5 0.196734 5 0.156633
+newline poly pcfill 1 1 0 pts
+     4.5 0.156633 5.5 0.156633
+     5.5 -0.0281184 4.5 -0.0281184
+newline pts 5.5 0.00462741 5.25 0.00462741
+newline pts 4.5 0.00462741 4.75 0.00462741
+newcurve marktype circle fill 0 marksize 0.25 pts 5 0.0324292
+newgraph
+  x_translate 2
+  y_translate 0
+xaxis
+  min 0
+  max 6
+  size 1.25
+  no_auto_hash_marks
+  no_auto_hash_labels
+  hash_labels
+    hjl vjc
+    fontsize 9
+    rotate -90
+  label : starting_edges
+yaxis
+  no_auto_hash_marks
+  no_auto_hash_labels
+  size 1
+title
+  y 1
+  font Times-Bold
+  fontsize 15
+  : VR results
+xaxis hash_at 1 hash_label at 1 : 64
+newline pts 1 -1 1 -0.181214
+newline pts 1 0.114954 1 0.0217153
+newline poly pcfill 1 1 0 pts
+     0.5 0.0217153 1.5 0.0217153
+     1.5 -0.181214 0.5 -0.181214
+newline pts 1.5 -0.0376488 1.25 -0.0376488
+newline pts 0.5 -0.0376488 0.75 -0.0376488
+newcurve marktype circle fill 0 marksize 0.25 pts 1 -0.157561
+xaxis hash_at 2 hash_label at 2 : 96
+newline pts 2 -0.999304 2 -0.195719
+newline pts 2 0.196734 2 0.0582241
+newline poly pcfill 1 1 0 pts
+     1.5 0.0582241 2.5 0.0582241
+     2.5 -0.195719 1.5 -0.195719
+newline pts 2.5 -0.0317958 2.25 -0.0317958
+newline pts 1.5 -0.0317958 1.75 -0.0317958
+newcurve marktype circle fill 0 marksize 0.25 pts 2 -0.122393
+xaxis hash_at 3 hash_label at 3 : 128
+newline pts 3 -0.909647 3 -0.12024
+newline pts 3 0.122163 3 0.0716401
+newline poly pcfill 1 1 0 pts
+     2.5 0.0716401 3.5 0.0716401
+     3.5 -0.12024 2.5 -0.12024
+newline pts 3.5 -0.0367655 3.25 -0.0367655
+newline pts 2.5 -0.0367655 2.75 -0.0367655
+newcurve marktype circle fill 0 marksize 0.25 pts 3 -0.106931
+newgraph
+  x_translate 4
+  y_translate 0
+xaxis
+  min 0
+  max 6
+  size 1.25
+  no_auto_hash_marks
+  no_auto_hash_labels
+  hash_labels
+    hjl vjc
+    fontsize 9
+    rotate -90
+  label : output_dimensions
+yaxis
+  no_auto_hash_marks
+  no_auto_hash_labels
+  size 1
+xaxis hash_at 1 hash_label at 1 : 2
+newline pts 1 -0.973461 1 -0.195719
+newline pts 1 0.0645916 1 -0.0326417
+newline poly pcfill 1 1 0 pts
+     0.5 -0.0326417 1.5 -0.0326417
+     1.5 -0.195719 0.5 -0.195719
+newline pts 1.5 -0.101345 1.25 -0.101345
+newline pts 0.5 -0.101345 0.75 -0.101345
+newcurve marktype circle fill 0 marksize 0.25 pts 1 -0.163119
+xaxis hash_at 2 hash_label at 2 : 4
+newline pts 2 -1 2 -0.395338
+newline pts 2 0.0791521 2 -0.0252701
+newline poly pcfill 1 1 0 pts
+     1.5 -0.0252701 2.5 -0.0252701
+     2.5 -0.395338 1.5 -0.395338
+newline pts 2.5 -0.0526121 2.25 -0.0526121
+newline pts 1.5 -0.0526121 1.75 -0.0526121
+newcurve marktype circle fill 0 marksize 0.25 pts 2 -0.235366
+xaxis hash_at 3 hash_label at 3 : 8
+newline pts 3 -0.981889 3 -0.115084
+newline pts 3 0.187936 3 0.071113
+newline poly pcfill 1 1 0 pts
+     2.5 0.071113 3.5 0.071113
+     3.5 -0.115084 2.5 -0.115084
+newline pts 3.5 -0.00677159 3.25 -0.00677159
+newline pts 2.5 -0.00677159 2.75 -0.00677159
+newcurve marktype circle fill 0 marksize 0.25 pts 3 -0.107357
+xaxis hash_at 4 hash_label at 4 : 16
+newline pts 4 -0.453683 4 -0.0370951
+newline pts 4 0.166998 4 0.0932435
+newline poly pcfill 1 1 0 pts
+     3.5 0.0932435 4.5 0.0932435
+     4.5 -0.0370951 3.5 -0.0370951
+newline pts 4.5 0.0571736 4.25 0.0571736
+newline pts 3.5 0.0571736 3.75 0.0571736
+newcurve marktype circle fill 0 marksize 0.25 pts 4 0.00443187
+xaxis hash_at 5 hash_label at 5 : 32
+newline pts 5 -0.999304 5 0.0130452
+newline pts 5 0.196734 5 0.133785
+newline poly pcfill 1 1 0 pts
+     4.5 0.133785 5.5 0.133785
+     5.5 0.0130452 4.5 0.0130452
+newline pts 5.5 0.101845 5.25 0.101845
+newline pts 4.5 0.101845 4.75 0.101845
+newcurve marktype circle fill 0 marksize 0.25 pts 5 -0.0610005
+newgraph
+  x_translate 0
+  y_translate -2
+xaxis
+  min 0
+  max 6
+  size 1.25
+  no_auto_hash_marks
+  no_auto_hash_labels
+  hash_labels
+    hjl vjc
+    fontsize 9
+    rotate -90
+  label : discrete
+yaxis
+  size 1
+  label : Fitness
+xaxis hash_at 1 hash_label at 1 : true
+newline pts 1 -0.999304 1 -0.236893
+newline pts 1 0.133785 1 0.027983
+newline poly pcfill 1 1 0 pts
+     0.5 0.027983 1.5 0.027983
+     1.5 -0.236893 0.5 -0.236893
+newline pts 1.5 -0.0319528 1.25 -0.0319528
+newline pts 0.5 -0.0319528 0.75 -0.0319528
+newcurve marktype circle fill 0 marksize 0.25 pts 1 -0.156666
+xaxis hash_at 2 hash_label at 2 : false
+newline pts 2 -1 2 -0.158518
+newline pts 2 0.196734 2 0.0671575
+newline poly pcfill 1 1 0 pts
+     1.5 0.0671575 2.5 0.0671575
+     2.5 -0.158518 1.5 -0.158518
+newline pts 2.5 -0.0371977 2.25 -0.0371977
+newline pts 1.5 -0.0371977 1.75 -0.0371977
+newcurve marktype circle fill 0 marksize 0.25 pts 2 -0.115174
+newgraph
+  x_translate 2
+  y_translate -2
+xaxis
+  min 0
+  max 6
+  size 1.25
+  no_auto_hash_marks
+  no_auto_hash_labels
+  hash_labels
+    hjl vjc
+    fontsize 9
+    rotate -90
+  label : leak_mode
+yaxis
+  no_auto_hash_marks
+  no_auto_hash_labels
+  size 1
+xaxis hash_at 1 hash_label at 1 : "none"
+newline pts 1 -0.999304 1 -0.158518
+newline pts 1 0.166998 1 0.0435373
+newline poly pcfill 1 1 0 pts
+     0.5 0.0435373 1.5 0.0435373
+     1.5 -0.158518 0.5 -0.158518
+newline pts 1.5 -0.0374456 1.25 -0.0374456
+newline pts 0.5 -0.0374456 0.75 -0.0374456
+newcurve marktype circle fill 0 marksize 0.25 pts 1 -0.0978161
+xaxis hash_at 2 hash_label at 2 : "all"
+newline pts 2 -1 2 -0.246303
+newline pts 2 0.196734 2 0.0537909
+newline poly pcfill 1 1 0 pts
+     1.5 0.0537909 2.5 0.0537909
+     2.5 -0.246303 1.5 -0.246303
+newline pts 2.5 -0.0346805 2.25 -0.0346805
+newline pts 1.5 -0.0346805 1.75 -0.0346805
+newcurve marktype circle fill 0 marksize 0.25 pts 2 -0.158793
+newgraph
+  x_translate 4
+  y_translate -2
+xaxis
+  min 0
+  max 6
+  size 1.25
+  no_auto_hash_marks
+  no_auto_hash_labels
+  hash_labels
+    hjl vjc
+    fontsize 9
+    rotate -90
+  label : max_delay
+yaxis
+  no_auto_hash_marks
+  no_auto_hash_labels
+  size 1
+xaxis hash_at 1 hash_label at 1 : 2
+newline pts 1 -0.982043 1 -0.247039
+newline pts 1 0.166998 1 0.0307875
+newline poly pcfill 1 1 0 pts
+     0.5 0.0307875 1.5 0.0307875
+     1.5 -0.247039 0.5 -0.247039
+newline pts 1.5 -0.0391974 1.25 -0.0391974
+newline pts 0.5 -0.0391974 0.75 -0.0391974
+newcurve marktype circle fill 0 marksize 0.25 pts 1 -0.14476
+xaxis hash_at 2 hash_label at 2 : 8
+newline pts 2 -0.999304 2 -0.115084
+newline pts 2 0.187936 2 0.0358373
+newline poly pcfill 1 1 0 pts
+     1.5 0.0358373 2.5 0.0358373
+     2.5 -0.115084 1.5 -0.115084
+newline pts 2.5 -0.0273999 2.25 -0.0273999
+newline pts 1.5 -0.0273999 1.75 -0.0273999
+newcurve marktype circle fill 0 marksize 0.25 pts 2 -0.0972725
+xaxis hash_at 3 hash_label at 3 : 4
+newline pts 3 -0.980314 3 -0.105948
+newline pts 3 0.155588 3 0.0537909
+newline poly pcfill 1 1 0 pts
+     2.5 0.0537909 3.5 0.0537909
+     3.5 -0.105948 2.5 -0.105948
+newline pts 3.5 -0.0370951 3.25 -0.0370951
+newline pts 2.5 -0.0370951 2.75 -0.0370951
+newcurve marktype circle fill 0 marksize 0.25 pts 3 -0.0711969
+xaxis hash_at 4 hash_label at 4 : 1
+newline pts 4 -0.999304 4 -0.518309
+newline pts 4 0.116316 4 0.0582241
+newline poly pcfill 1 1 0 pts
+     3.5 0.0582241 4.5 0.0582241
+     4.5 -0.518309 3.5 -0.518309
+newline pts 4.5 -0.00284828 4.25 -0.00284828
+newline pts 3.5 -0.00284828 3.75 -0.00284828
+newcurve marktype circle fill 0 marksize 0.25 pts 4 -0.244127
+xaxis hash_at 5 hash_label at 5 : 16
+newline pts 5 -1 5 -0.246303
+newline pts 5 0.196734 5 0.0645916
+newline poly pcfill 1 1 0 pts
+     4.5 0.0645916 5.5 0.0645916
+     5.5 -0.246303 4.5 -0.246303
+newline pts 5.5 -0.0275425 5.25 -0.0275425
+newline pts 4.5 -0.0275425 4.75 -0.0275425
+newcurve marktype circle fill 0 marksize 0.25 pts 5 -0.195939
+newgraph
+  x_translate 0
+  y_translate -4
+xaxis
+  min 0
+  max 6
+  size 1.25
+  no_auto_hash_marks
+  no_auto_hash_labels
+  hash_labels
+    hjl vjc
+    fontsize 9
+    rotate -90
+  label : max_threshold
+yaxis
+  size 1
+  label : Fitness
+xaxis hash_at 1 hash_label at 1 : 16
+newline pts 1 -0.909647 1 -0.283655
+newline pts 1 0.103765 1 -0.0273999
+newline poly pcfill 1 1 0 pts
+     0.5 -0.0273999 1.5 -0.0273999
+     1.5 -0.283655 0.5 -0.283655
+newline pts 1.5 -0.115084 1.25 -0.115084
+newline pts 0.5 -0.115084 0.75 -0.115084
+newcurve marktype circle fill 0 marksize 0.25 pts 1 -0.19753
+xaxis hash_at 2 hash_label at 2 : 8
+newline pts 2 -1 2 -0.122371
+newline pts 2 0.114954 2 0.0307875
+newline poly pcfill 1 1 0 pts
+     1.5 0.0307875 2.5 0.0307875
+     2.5 -0.122371 1.5 -0.122371
+newline pts 2.5 -0.011645 2.25 -0.011645
+newline pts 1.5 -0.011645 1.75 -0.011645
+newcurve marktype circle fill 0 marksize 0.25 pts 2 -0.119087
+xaxis hash_at 3 hash_label at 3 : 2
+newline pts 3 -1 3 -0.195719
+newline pts 3 0.187936 3 0.0537909
+newline poly pcfill 1 1 0 pts
+     2.5 0.0537909 3.5 0.0537909
+     3.5 -0.195719 2.5 -0.195719
+newline pts 3.5 -0.0391974 3.25 -0.0391974
+newline pts 2.5 -0.0391974 2.75 -0.0391974
+newcurve marktype circle fill 0 marksize 0.25 pts 3 -0.17085
+xaxis hash_at 4 hash_label at 4 : 4
+newline pts 4 -0.980314 4 -0.143897
+newline pts 4 0.196734 4 0.071113
+newline poly pcfill 1 1 0 pts
+     3.5 0.071113 4.5 0.071113
+     4.5 -0.143897 3.5 -0.143897
+newline pts 4.5 -0.0434291 4.25 -0.0434291
+newline pts 3.5 -0.0434291 3.75 -0.0434291
+newcurve marktype circle fill 0 marksize 0.25 pts 4 -0.0924794
+xaxis hash_at 5 hash_label at 5 : 1
+newline pts 5 -0.981889 5 -0.0826079
+newline pts 5 0.166998 5 0.0774755
+newline poly pcfill 1 1 0 pts
+     4.5 0.0774755 5.5 0.0774755
+     5.5 -0.0826079 4.5 -0.0826079
+newline pts 5.5 -0.00844782 5.25 -0.00844782
+newline pts 4.5 -0.00844782 4.75 -0.00844782
+newcurve marktype circle fill 0 marksize 0.25 pts 5 -0.0974229
+newgraph
+  x_translate 2
+  y_translate -4
+xaxis
+  min 0
+  max 6
+  size 1.25
+  no_auto_hash_marks
+  no_auto_hash_labels
+  hash_labels
+    hjl vjc
+    fontsize 9
+    rotate -90
+  label : max_weight
+yaxis
+  no_auto_hash_marks
+  no_auto_hash_labels
+  size 1
+xaxis hash_at 1 hash_label at 1 : 1
+newline pts 1 -1 1 -0.652169
+newline pts 1 0.0992975 1 -0.0567462
+newline poly pcfill 1 1 0 pts
+     0.5 -0.0567462 1.5 -0.0567462
+     1.5 -0.652169 0.5 -0.652169
+newline pts 1.5 -0.236893 1.25 -0.236893
+newline pts 0.5 -0.236893 0.75 -0.236893
+newcurve marktype circle fill 0 marksize 0.25 pts 1 -0.371383
+xaxis hash_at 2 hash_label at 2 : 2
+newline pts 2 -0.999304 2 -0.181214
+newline pts 2 0.196734 2 0.0235122
+newline poly pcfill 1 1 0 pts
+     1.5 0.0235122 2.5 0.0235122
+     2.5 -0.181214 1.5 -0.181214
+newline pts 2.5 -0.041594 2.25 -0.041594
+newline pts 1.5 -0.041594 1.75 -0.041594
+newcurve marktype circle fill 0 marksize 0.25 pts 2 -0.123507
+xaxis hash_at 3 hash_label at 3 : 8
+newline pts 3 -0.247397 3 -0.0588779
+newline pts 3 0.166998 3 0.0242452
+newline poly pcfill 1 1 0 pts
+     2.5 0.0242452 3.5 0.0242452
+     3.5 -0.0588779 2.5 -0.0588779
+newline pts 3.5 -0.0369187 3.25 -0.0369187
+newline pts 2.5 -0.0369187 2.75 -0.0369187
+newcurve marktype circle fill 0 marksize 0.25 pts 3 -0.0230755
+xaxis hash_at 4 hash_label at 4 : 4
+newline pts 4 -0.997963 4 -0.0273999
+newline pts 4 0.155588 4 0.0982152
+newline poly pcfill 1 1 0 pts
+     3.5 0.0982152 4.5 0.0982152
+     4.5 -0.0273999 3.5 -0.0273999
+newline pts 4.5 0.0607719 4.25 0.0607719
+newline pts 3.5 0.0607719 3.75 0.0607719
+newcurve marktype circle fill 0 marksize 0.25 pts 4 -0.0477412
+xaxis hash_at 5 hash_label at 5 : 16
+newline pts 5 -0.283655 5 -0.0391435
+newline pts 5 0.187936 5 0.10349
+newline poly pcfill 1 1 0 pts
+     4.5 0.10349 5.5 0.10349
+     5.5 -0.0391435 4.5 -0.0391435
+newline pts 5.5 -0.00087376 5.25 -0.00087376
+newline pts 4.5 -0.00087376 4.75 -0.00087376
+newcurve marktype circle fill 0 marksize 0.25 pts 5 0.00791158
+newgraph
+  x_translate 4
+  y_translate -4
+xaxis
+  min 0
+  max 6
+  size 1.25
+  no_auto_hash_marks
+  no_auto_hash_labels
+  hash_labels
+    hjl vjc
+    fontsize 9
+    rotate -90
+  label : min_potential
+yaxis
+  no_auto_hash_marks
+  no_auto_hash_labels
+  size 1
+xaxis hash_at 1 hash_label at 1 : -1
+newline pts 1 -0.997963 1 -0.412564
+newline pts 1 0.0994649 1 -0.00256725
+newline poly pcfill 1 1 0 pts
+     0.5 -0.00256725 1.5 -0.00256725
+     1.5 -0.412564 0.5 -0.412564
+newline pts 1.5 -0.0478621 1.25 -0.0478621
+newline pts 0.5 -0.0478621 0.75 -0.0478621
+newcurve marktype circle fill 0 marksize 0.25 pts 1 -0.218006
+xaxis hash_at 2 hash_label at 2 : -4
+newline pts 2 -1 2 -0.143897
+newline pts 2 0.133785 2 0.0520387
+newline poly pcfill 1 1 0 pts
+     1.5 0.0520387 2.5 0.0520387
+     2.5 -0.143897 1.5 -0.143897
+newline pts 2.5 -0.0393805 2.25 -0.0393805
+newline pts 1.5 -0.0393805 1.75 -0.0393805
+newcurve marktype circle fill 0 marksize 0.25 pts 2 -0.149847
+xaxis hash_at 3 hash_label at 3 : -2
+newline pts 3 -0.999304 3 -0.221227
+newline pts 3 0.196734 3 0.0716401
+newline poly pcfill 1 1 0 pts
+     2.5 0.0716401 3.5 0.0716401
+     3.5 -0.221227 2.5 -0.221227
+newline pts 3.5 -0.0281184 3.25 -0.0281184
+newline pts 2.5 -0.0281184 2.75 -0.0281184
+newcurve marktype circle fill 0 marksize 0.25 pts 3 -0.12286
+xaxis hash_at 4 hash_label at 4 : -8
+newline pts 4 -0.554884 4 -0.0828624
+newline pts 4 0.187936 4 0.0932435
+newline poly pcfill 1 1 0 pts
+     3.5 0.0932435 4.5 0.0932435
+     4.5 -0.0828624 3.5 -0.0828624
+newline pts 4.5 -0.00166719 4.25 -0.00166719
+newline pts 3.5 -0.00166719 3.75 -0.00166719
+newcurve marktype circle fill 0 marksize 0.25 pts 4 -0.0344025
+newgraph
+  x_translate 0
+  y_translate -6
+xaxis
+  min 0
+  max 6
+  size 1.25
+  no_auto_hash_marks
+  no_auto_hash_labels
+  hash_labels
+    hjl vjc
+    fontsize 9
+    rotate -90
+  label : min_weight
+yaxis
+  size 1
+  label : Fitness
+xaxis hash_at 1 hash_label at 1 : -4
+newline pts 1 -1 1 -0.339205
+newline pts 1 0.155588 1 -0.0106639
+newline poly pcfill 1 1 0 pts
+     0.5 -0.0106639 1.5 -0.0106639
+     1.5 -0.339205 0.5 -0.339205
+newline pts 1.5 -0.181214 1.25 -0.181214
+newline pts 0.5 -0.181214 0.75 -0.181214
+newcurve marktype circle fill 0 marksize 0.25 pts 1 -0.237124
+xaxis hash_at 2 hash_label at 2 : -2
+newline pts 2 -1 2 -0.122371
+newline pts 2 0.166998 2 0.0571736
+newline poly pcfill 1 1 0 pts
+     1.5 0.0571736 2.5 0.0571736
+     2.5 -0.122371 1.5 -0.122371
+newline pts 2.5 -0.030825 2.25 -0.030825
+newline pts 1.5 -0.030825 1.75 -0.030825
+newcurve marktype circle fill 0 marksize 0.25 pts 2 -0.119586
+xaxis hash_at 3 hash_label at 3 : -1
+newline pts 3 -0.999304 3 -0.0804345
+newline pts 3 0.196734 3 0.0932435
+newline poly pcfill 1 1 0 pts
+     2.5 0.0932435 3.5 0.0932435
+     3.5 -0.0804345 2.5 -0.0804345
+newline pts 3.5 -0.0109854 3.25 -0.0109854
+newline pts 2.5 -0.0109854 2.75 -0.0109854
+newcurve marktype circle fill 0 marksize 0.25 pts 3 -0.0684105
+newgraph
+  x_translate 2
+  y_translate -6
+xaxis
+  min 0
+  max 6
+  size 1.25
+  no_auto_hash_marks
+  no_auto_hash_labels
+  hash_labels
+    hjl vjc
+    fontsize 9
+    rotate -90
+  label : encoder
+yaxis
+  no_auto_hash_marks
+  no_auto_hash_labels
+  size 1
+xaxis hash_at 1 hash_label at 1 : "rate"
+newline pts 1 -1 1 -0.86487
+newline pts 1 0.106581 1 -0.221227
+newline poly pcfill 1 1 0 pts
+     0.5 -0.221227 1.5 -0.221227
+     1.5 -0.86487 0.5 -0.86487
+newline pts 1.5 -0.48763 1.25 -0.48763
+newline pts 0.5 -0.48763 0.75 -0.48763
+newcurve marktype circle fill 0 marksize 0.25 pts 1 -0.485487
+xaxis hash_at 2 hash_label at 2 : "temporal"
+newline pts 2 -0.158518 2 -0.0804345
+newline pts 2 -0.0110828 2 -0.0346805
+newline poly pcfill 1 1 0 pts
+     1.5 -0.0346805 2.5 -0.0346805
+     2.5 -0.0804345 1.5 -0.0804345
+newline pts 2.5 -0.0411653 2.25 -0.0411653
+newline pts 1.5 -0.0411653 1.75 -0.0411653
+newcurve marktype circle fill 0 marksize 0.25 pts 2 -0.0561698
+xaxis hash_at 3 hash_label at 3 : "spikes"
+newline pts 3 -0.997963 3 -0.179751
+newline pts 3 0.116316 3 0.0607719
+newline poly pcfill 1 1 0 pts
+     2.5 0.0607719 3.5 0.0607719
+     3.5 -0.179751 2.5 -0.179751
+newline pts 3.5 -0.0275425 3.25 -0.0275425
+newline pts 2.5 -0.0275425 2.75 -0.0275425
+newcurve marktype circle fill 0 marksize 0.25 pts 3 -0.0763735
+xaxis hash_at 4 hash_label at 4 : "spike"
+newline pts 4 -0.453683 4 -0.0525927
+newline pts 4 0.187936 4 0.0791521
+newline poly pcfill 1 1 0 pts
+     3.5 0.0791521 4.5 0.0791521
+     4.5 -0.0525927 3.5 -0.0525927
+newline pts 4.5 0.0235122 4.25 0.0235122
+newline pts 3.5 0.0235122 3.75 0.0235122
+newcurve marktype circle fill 0 marksize 0.25 pts 4 0.00213597
+xaxis hash_at 5 hash_label at 5 : "val"
+newline pts 5 -1 5 -0.00844782
+newline pts 5 0.196734 5 0.0994649
+newline poly pcfill 1 1 0 pts
+     4.5 0.0994649 5.5 0.0994649
+     5.5 -0.00844782 4.5 -0.00844782
+newline pts 5.5 0.0423425 5.25 0.0423425
+newline pts 4.5 0.0423425 4.75 0.0423425
+newcurve marktype circle fill 0 marksize 0.25 pts 5 -0.0217475
+newgraph
+  x_translate 4
+  y_translate -6
+xaxis
+  min 0
+  max 6
+  size 1.25
+  no_auto_hash_marks
+  no_auto_hash_labels
+  hash_labels
+    hjl vjc
+    fontsize 9
+    rotate -90
+  label : decoder
+yaxis
+  no_auto_hash_marks
+  no_auto_hash_labels
+  size 1
+xaxis hash_at 1 hash_label at 1 : "ttls"
+newline pts 1 -0.980314 1 -0.158518
+newline pts 1 0.166998 1 0.0435373
+newline poly pcfill 1 1 0 pts
+     0.5 0.0435373 1.5 0.0435373
+     1.5 -0.158518 0.5 -0.158518
+newline pts 1.5 -0.0367655 1.25 -0.0367655
+newline pts 0.5 -0.0367655 0.75 -0.0367655
+newcurve marktype circle fill 0 marksize 0.25 pts 1 -0.111018
+xaxis hash_at 2 hash_label at 2 : "rate"
+newline pts 2 -1 2 -0.221227
+newline pts 2 0.196734 2 0.0537909
+newline poly pcfill 1 1 0 pts
+     1.5 0.0537909 2.5 0.0537909
+     2.5 -0.221227 1.5 -0.221227
+newline pts 2.5 -0.0342949 2.25 -0.0342949
+newline pts 1.5 -0.0342949 1.75 -0.0342949
+newcurve marktype circle fill 0 marksize 0.25 pts 2 -0.163407
+newpage
+newgraph
+  x_translate 0
+  y_translate 0
+xaxis
+  min 0
+  max 6
+  size 1.25
+  no_auto_hash_marks
+  no_auto_hash_labels
+  hash_labels
+    hjl vjc
+    fontsize 9
+    rotate -90
+  label : tau
+yaxis
+  size 1
+  label : Fitness
+xaxis hash_at 1 hash_label at 1 : 10
+newline pts 1 -0.999304 1 -0.13994
+newline pts 1 0.196734 1 0.0358373
+newline poly pcfill 1 1 0 pts
+     0.5 0.0358373 1.5 0.0358373
+     1.5 -0.13994 0.5 -0.13994
+newline pts 1.5 -0.0371977 1.25 -0.0371977
+newline pts 0.5 -0.0371977 0.75 -0.0371977
+newcurve marktype circle fill 0 marksize 0.25 pts 1 -0.11105
+xaxis hash_at 2 hash_label at 2 : 5
+newline pts 2 -0.982043 2 -0.156991
+newline pts 2 0.116316 2 0.0520387
+newline poly pcfill 1 1 0 pts
+     1.5 0.0520387 2.5 0.0520387
+     2.5 -0.156991 1.5 -0.156991
+newline pts 2.5 -0.0326417 2.25 -0.0326417
+newline pts 1.5 -0.0326417 1.75 -0.0326417
+newcurve marktype circle fill 0 marksize 0.25 pts 2 -0.0908979
+xaxis hash_at 3 hash_label at 3 : 15
+newline pts 3 -1 3 -0.518309
+newline pts 3 0.187936 3 0.0537909
+newline poly pcfill 1 1 0 pts
+     2.5 0.0537909 3.5 0.0537909
+     3.5 -0.518309 2.5 -0.518309
+newline pts 3.5 -0.0317958 3.25 -0.0317958
+newline pts 2.5 -0.0317958 2.75 -0.0317958
+newcurve marktype circle fill 0 marksize 0.25 pts 3 -0.222434

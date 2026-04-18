@@ -1,0 +1,19 @@
+Fitness metric fitness
+Executing python ../utils/scikit_opt.py --n_calls 25 --n_random_starts 25 --random_state 23282
+
+Writing the following to python: [{"categories":[0,1,2],"name":"starting_edges","type":"C"},{"categories":[0,1,2,3,4],"name":"output_dimensions","type":"C"},{"categories":[0,1,2],"name":"tau","type":"C"},{"categories":[0,1],"name":"discrete","type":"C"},{"categories":[0,1],"name":"leak_mode","type":"C"},{"categories":[0,1,2,3,4],"name":"max_delay","type":"C"},{"categories":[0,1,2,3,4],"name":"max_threshold","type":"C"},{"categories":[0,1,2,3,4],"name":"max_weight","type":"C"},{"categories":[0,1,2,3],"name":"min_potential","type":"C"},{"categories":[0,1,2],"name":"min_weight","type":"C"},{"categories":[0,1,2,3,4],"name":"sim_time","type":"C"},{"categories":[0,1,2,3,4],"name":"base","type":"C"},{"categories":[0,1],"name":"base","type":"C"}]
+-
+Bayes Iteration :   0
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 38/dimensionality_reduction.json --eons_params 38/eons.json --proc_params 38/risp.json --threads 13 --epochs 10 --sim_time 16 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":8,"tau":10}' --extra_proc_params '{"discrete":false,"leak_mode":"none","max_delay":16,"max_threshold":8,"max_weight":2,"min_potential":-4,"min_weight":-1}' --encoder "spikes" --decoder "ttls"
+  Selected Fitness: 0.0268918
+
+Best Fitness = 0.056927
+
+Bayes Iteration :   1
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 38/dimensionality_reduction.json --eons_params 38/eons.json --proc_params 38/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params '{"starting_edges":64}' --extra_app_params '{"output_dimensions":8,"tau":5}' --extra_proc_params '{"discrete":true,"leak_mode":"none","max_delay":4,"max_threshold":4,"max_weight":16,"min_potential":-2,"min_weight":-2}' --encoder "spike" --decoder "rate"
+  Selected Fitness: -1e+09
+
+Best Fitness = 0.056927
+
+Bayes Iteration :   2
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 38/dimensionality_reduction.json --eons_params 38/eons.json --proc_params 38/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params '{"starting_edges":128}' --extra_app_params '{"output_dimensions":16,"tau":15}' --extra_proc_params '{"discrete":false,"leak_mode":"none","max_delay":2,"max_threshold":2,"max_weight":16,"min_potential":-4,"min_weight":-4}' --encoder "spikes" --decoder "rate"

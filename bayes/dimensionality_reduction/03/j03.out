@@ -1,0 +1,605 @@
+Fitness metric fitness
+Executing python ../utils/scikit_opt.py --n_calls 100 --n_random_starts 100 --random_state 15529
+
+Writing the following to python: [{"categories":[0,1,2],"name":"starting_edges","type":"C"},{"categories":[0,1,2,3,4],"name":"output_dimensions","type":"C"},{"categories":[0,1],"name":"discrete","type":"C"},{"categories":[0,1],"name":"leak_mode","type":"C"},{"categories":[0,1,2,3,4],"name":"max_delay","type":"C"},{"categories":[0,1,2,3,4],"name":"max_threshold","type":"C"},{"categories":[0,1,2,3,4],"name":"max_weight","type":"C"},{"categories":[0,1,2,3],"name":"min_potential","type":"C"},{"categories":[0,1,2],"name":"min_weight","type":"C"},{"categories":[0,1,2,3,4],"name":"sim_time","type":"C"},{"categories":[0,1,2,3,4],"name":"base","type":"C"},{"categories":[0,1],"name":"base","type":"C"}]
+-
+Bayes Iteration :   0
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":4}' --extra_proc_params '{"discrete":true,"leak_mode":"none","max_delay":16,"max_threshold":2,"max_weight":16,"min_potential":-4,"min_weight":-2}' --encoder "spikes" --decoder "rate"
+  Selected Fitness: 0.000121507
+
+Best Fitness = 0.001098
+
+Bayes Iteration :   1
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":4}' --extra_proc_params '{"discrete":false,"leak_mode":"all","max_delay":1,"max_threshold":8,"max_weight":8,"min_potential":-2,"min_weight":-2}' --encoder "spike" --decoder "rate"
+  Selected Fitness: 0.000152879
+
+Best Fitness = 0.001144
+
+Bayes Iteration :   2
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 8 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":8}' --extra_proc_params '{"discrete":true,"leak_mode":"all","max_delay":4,"max_threshold":16,"max_weight":8,"min_potential":-4,"min_weight":-2}' --encoder "spikes" --decoder "ttls"
+  Selected Fitness: 0.000207998
+
+Best Fitness = 0.002420
+
+Bayes Iteration :   3
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params '{"starting_edges":64}' --extra_app_params '{"output_dimensions":16}' --extra_proc_params '{"discrete":false,"leak_mode":"all","max_delay":8,"max_threshold":8,"max_weight":1,"min_potential":-1,"min_weight":-2}' --encoder "spikes" --decoder "rate"
+  Selected Fitness: 0.000181378
+
+Best Fitness = 0.002420
+
+Bayes Iteration :   4
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 16 --extra_eons_params '{"starting_edges":128}' --extra_app_params '{"output_dimensions":4}' --extra_proc_params '{"discrete":true,"leak_mode":"none","max_delay":16,"max_threshold":8,"max_weight":2,"min_potential":-4,"min_weight":-2}' --encoder "rate" --decoder "rate"
+  Selected Fitness: 0.00130983
+
+Best Fitness = 0.011673
+
+Bayes Iteration :   5
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 16 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":8}' --extra_proc_params '{"discrete":false,"leak_mode":"all","max_delay":2,"max_threshold":1,"max_weight":4,"min_potential":-2,"min_weight":-2}' --encoder "spike" --decoder "rate"
+  Selected Fitness: 0.00301614
+
+Best Fitness = 0.011673
+
+Bayes Iteration :   6
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 16 --extra_eons_params '{"starting_edges":64}' --extra_app_params '{"output_dimensions":4}' --extra_proc_params '{"discrete":false,"leak_mode":"all","max_delay":4,"max_threshold":1,"max_weight":8,"min_potential":-2,"min_weight":-1}' --encoder "temporal" --decoder "ttls"
+  Selected Fitness: 0.000339674
+
+Best Fitness = 0.011673
+
+Bayes Iteration :   7
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 16 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":4}' --extra_proc_params '{"discrete":true,"leak_mode":"all","max_delay":2,"max_threshold":8,"max_weight":4,"min_potential":-1,"min_weight":-4}' --encoder "spikes" --decoder "rate"
+  Selected Fitness: 0.00305236
+
+Best Fitness = 0.017250
+
+Bayes Iteration :   8
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params '{"starting_edges":128}' --extra_app_params '{"output_dimensions":16}' --extra_proc_params '{"discrete":true,"leak_mode":"none","max_delay":2,"max_threshold":2,"max_weight":8,"min_potential":-4,"min_weight":-2}' --encoder "spike" --decoder "rate"
+  Selected Fitness: 0.0256268
+
+Best Fitness = 0.029010
+
+Bayes Iteration :   9
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params '{"starting_edges":64}' --extra_app_params '{"output_dimensions":8}' --extra_proc_params '{"discrete":false,"leak_mode":"none","max_delay":1,"max_threshold":8,"max_weight":8,"min_potential":-8,"min_weight":-4}' --encoder "temporal" --decoder "rate"
+  Selected Fitness: 0.000194626
+
+Best Fitness = 0.029010
+
+Bayes Iteration :  10
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 128 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":4}' --extra_proc_params '{"discrete":true,"leak_mode":"none","max_delay":8,"max_threshold":4,"max_weight":4,"min_potential":-4,"min_weight":-2}' --encoder "spikes" --decoder "rate"
+  Selected Fitness: 0.000950028
+
+Best Fitness = 0.029010
+
+Bayes Iteration :  11
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 8 --extra_eons_params '{"starting_edges":128}' --extra_app_params '{"output_dimensions":32}' --extra_proc_params '{"discrete":true,"leak_mode":"all","max_delay":2,"max_threshold":4,"max_weight":2,"min_potential":-1,"min_weight":-2}' --encoder "rate" --decoder "rate"
+  Selected Fitness: 0.0138081
+
+Best Fitness = 0.029010
+
+Bayes Iteration :  12
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 8 --extra_eons_params '{"starting_edges":128}' --extra_app_params '{"output_dimensions":4}' --extra_proc_params '{"discrete":true,"leak_mode":"none","max_delay":8,"max_threshold":2,"max_weight":2,"min_potential":-8,"min_weight":-2}' --encoder "val" --decoder "rate"
+  Selected Fitness: 0.0024425
+
+Best Fitness = 0.029010
+
+Bayes Iteration :  13
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params '{"starting_edges":128}' --extra_app_params '{"output_dimensions":32}' --extra_proc_params '{"discrete":true,"leak_mode":"none","max_delay":2,"max_threshold":2,"max_weight":4,"min_potential":-2,"min_weight":-2}' --encoder "spikes" --decoder "ttls"
+  Selected Fitness: 0.0192046
+
+Best Fitness = 0.029010
+
+Bayes Iteration :  14
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":2}' --extra_proc_params '{"discrete":false,"leak_mode":"none","max_delay":8,"max_threshold":8,"max_weight":1,"min_potential":-4,"min_weight":-2}' --encoder "spike" --decoder "rate"
+  Selected Fitness: 0.00200037
+
+Best Fitness = 0.029010
+
+Bayes Iteration :  15
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 16 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":8}' --extra_proc_params '{"discrete":false,"leak_mode":"all","max_delay":4,"max_threshold":2,"max_weight":4,"min_potential":-1,"min_weight":-2}' --encoder "spike" --decoder "rate"
+  Selected Fitness: 0.000131816
+
+Best Fitness = 0.029010
+
+Bayes Iteration :  16
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":16}' --extra_proc_params '{"discrete":true,"leak_mode":"all","max_delay":16,"max_threshold":4,"max_weight":2,"min_potential":-2,"min_weight":-4}' --encoder "rate" --decoder "ttls"
+  Selected Fitness: 0.000271709
+
+Best Fitness = 0.029010
+
+Bayes Iteration :  17
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params '{"starting_edges":128}' --extra_app_params '{"output_dimensions":8}' --extra_proc_params '{"discrete":false,"leak_mode":"all","max_delay":8,"max_threshold":1,"max_weight":4,"min_potential":-8,"min_weight":-4}' --encoder "val" --decoder "ttls"
+  Selected Fitness: 0.00573717
+
+Best Fitness = 0.029010
+
+Bayes Iteration :  18
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":4}' --extra_proc_params '{"discrete":true,"leak_mode":"none","max_delay":16,"max_threshold":2,"max_weight":1,"min_potential":-8,"min_weight":-4}' --encoder "rate" --decoder "rate"
+  Selected Fitness: 0.00850514
+
+Best Fitness = 0.029010
+
+Bayes Iteration :  19
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 16 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":4}' --extra_proc_params '{"discrete":true,"leak_mode":"none","max_delay":4,"max_threshold":4,"max_weight":8,"min_potential":-2,"min_weight":-2}' --encoder "rate" --decoder "ttls"
+  Selected Fitness: 0.000273164
+
+Best Fitness = 0.029010
+
+Bayes Iteration :  20
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 16 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":2}' --extra_proc_params '{"discrete":false,"leak_mode":"none","max_delay":2,"max_threshold":8,"max_weight":1,"min_potential":-8,"min_weight":-2}' --encoder "spike" --decoder "ttls"
+  Selected Fitness: 7.83409e-05
+
+Best Fitness = 0.029010
+
+Bayes Iteration :  21
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params '{"starting_edges":128}' --extra_app_params '{"output_dimensions":2}' --extra_proc_params '{"discrete":false,"leak_mode":"all","max_delay":1,"max_threshold":4,"max_weight":1,"min_potential":-8,"min_weight":-1}' --encoder "rate" --decoder "rate"
+  Selected Fitness: 0.00280731
+
+Best Fitness = 0.029010
+
+Bayes Iteration :  22
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params '{"starting_edges":128}' --extra_app_params '{"output_dimensions":8}' --extra_proc_params '{"discrete":true,"leak_mode":"all","max_delay":16,"max_threshold":4,"max_weight":16,"min_potential":-2,"min_weight":-2}' --encoder "val" --decoder "rate"
+  Selected Fitness: 0.15933
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  23
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 8 --extra_eons_params '{"starting_edges":128}' --extra_app_params '{"output_dimensions":4}' --extra_proc_params '{"discrete":true,"leak_mode":"all","max_delay":2,"max_threshold":4,"max_weight":4,"min_potential":-4,"min_weight":-4}' --encoder "spike" --decoder "rate"
+  Selected Fitness: 0.00210442
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  24
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 128 --extra_eons_params '{"starting_edges":128}' --extra_app_params '{"output_dimensions":8}' --extra_proc_params '{"discrete":true,"leak_mode":"none","max_delay":16,"max_threshold":8,"max_weight":1,"min_potential":-4,"min_weight":-1}' --encoder "rate" --decoder "ttls"
+  Selected Fitness: 0.000564897
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  25
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 8 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":4}' --extra_proc_params '{"discrete":false,"leak_mode":"all","max_delay":1,"max_threshold":8,"max_weight":16,"min_potential":-4,"min_weight":-1}' --encoder "spike" --decoder "ttls"
+  Selected Fitness: 0.100561
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  26
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params '{"starting_edges":64}' --extra_app_params '{"output_dimensions":16}' --extra_proc_params '{"discrete":true,"leak_mode":"none","max_delay":8,"max_threshold":16,"max_weight":1,"min_potential":-4,"min_weight":-4}' --encoder "val" --decoder "rate"
+  Selected Fitness: 0.00218096
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  27
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":2}' --extra_proc_params '{"discrete":true,"leak_mode":"all","max_delay":8,"max_threshold":16,"max_weight":8,"min_potential":-8,"min_weight":-4}' --encoder "spike" --decoder "rate"
+  Selected Fitness: 0.000750311
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  28
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params '{"starting_edges":128}' --extra_app_params '{"output_dimensions":16}' --extra_proc_params '{"discrete":true,"leak_mode":"none","max_delay":2,"max_threshold":4,"max_weight":1,"min_potential":-4,"min_weight":-1}' --encoder "rate" --decoder "ttls"
+  Selected Fitness: 0.0112948
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  29
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params '{"starting_edges":64}' --extra_app_params '{"output_dimensions":16}' --extra_proc_params '{"discrete":false,"leak_mode":"all","max_delay":2,"max_threshold":4,"max_weight":4,"min_potential":-4,"min_weight":-2}' --encoder "val" --decoder "ttls"
+  Selected Fitness: 0.000498076
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  30
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params '{"starting_edges":64}' --extra_app_params '{"output_dimensions":4}' --extra_proc_params '{"discrete":false,"leak_mode":"none","max_delay":16,"max_threshold":16,"max_weight":1,"min_potential":-4,"min_weight":-1}' --encoder "rate" --decoder "ttls"
+  Selected Fitness: 0.00574058
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  31
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 128 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":4}' --extra_proc_params '{"discrete":false,"leak_mode":"none","max_delay":8,"max_threshold":4,"max_weight":16,"min_potential":-8,"min_weight":-1}' --encoder "spikes" --decoder "rate"
+  Selected Fitness: 0.000241966
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  32
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 16 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":16}' --extra_proc_params '{"discrete":false,"leak_mode":"none","max_delay":1,"max_threshold":4,"max_weight":4,"min_potential":-4,"min_weight":-2}' --encoder "spike" --decoder "ttls"
+  Selected Fitness: 0.000291231
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  33
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 16 --extra_eons_params '{"starting_edges":64}' --extra_app_params '{"output_dimensions":4}' --extra_proc_params '{"discrete":false,"leak_mode":"all","max_delay":8,"max_threshold":8,"max_weight":2,"min_potential":-2,"min_weight":-4}' --encoder "spikes" --decoder "rate"
+  Selected Fitness: 0.00094299
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  34
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params '{"starting_edges":64}' --extra_app_params '{"output_dimensions":4}' --extra_proc_params '{"discrete":true,"leak_mode":"none","max_delay":8,"max_threshold":16,"max_weight":1,"min_potential":-4,"min_weight":-1}' --encoder "val" --decoder "ttls"
+  Selected Fitness: 0.000634274
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  35
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 16 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":8}' --extra_proc_params '{"discrete":false,"leak_mode":"none","max_delay":4,"max_threshold":1,"max_weight":16,"min_potential":-4,"min_weight":-2}' --encoder "spike" --decoder "rate"
+  Selected Fitness: 0.125478
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  36
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 8 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":16}' --extra_proc_params '{"discrete":true,"leak_mode":"none","max_delay":4,"max_threshold":8,"max_weight":8,"min_potential":-2,"min_weight":-1}' --encoder "rate" --decoder "rate"
+  Selected Fitness: 0.0172865
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  37
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params '{"starting_edges":128}' --extra_app_params '{"output_dimensions":8}' --extra_proc_params '{"discrete":true,"leak_mode":"none","max_delay":16,"max_threshold":16,"max_weight":8,"min_potential":-2,"min_weight":-2}' --encoder "spikes" --decoder "ttls"
+  Selected Fitness: 0.0297185
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  38
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 16 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":4}' --extra_proc_params '{"discrete":false,"leak_mode":"none","max_delay":2,"max_threshold":8,"max_weight":4,"min_potential":-1,"min_weight":-1}' --encoder "spike" --decoder "ttls"
+  Selected Fitness: 0.00365484
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  39
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 16 --extra_eons_params '{"starting_edges":128}' --extra_app_params '{"output_dimensions":4}' --extra_proc_params '{"discrete":true,"leak_mode":"all","max_delay":4,"max_threshold":8,"max_weight":8,"min_potential":-1,"min_weight":-2}' --encoder "rate" --decoder "ttls"
+  Selected Fitness: 0.000358876
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  40
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 128 --extra_eons_params '{"starting_edges":64}' --extra_app_params '{"output_dimensions":16}' --extra_proc_params '{"discrete":false,"leak_mode":"none","max_delay":4,"max_threshold":16,"max_weight":4,"min_potential":-8,"min_weight":-2}' --encoder "spike" --decoder "rate"
+  Selected Fitness: 0.000209209
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  41
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 16 --extra_eons_params '{"starting_edges":64}' --extra_app_params '{"output_dimensions":32}' --extra_proc_params '{"discrete":true,"leak_mode":"none","max_delay":1,"max_threshold":16,"max_weight":1,"min_potential":-8,"min_weight":-2}' --encoder "val" --decoder "ttls"
+  Selected Fitness: 0.00021656
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  42
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 128 --extra_eons_params '{"starting_edges":64}' --extra_app_params '{"output_dimensions":16}' --extra_proc_params '{"discrete":false,"leak_mode":"all","max_delay":2,"max_threshold":2,"max_weight":16,"min_potential":-2,"min_weight":-4}' --encoder "val" --decoder "ttls"
+  Selected Fitness: 0.00131854
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  43
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 16 --extra_eons_params '{"starting_edges":64}' --extra_app_params '{"output_dimensions":8}' --extra_proc_params '{"discrete":true,"leak_mode":"all","max_delay":1,"max_threshold":2,"max_weight":8,"min_potential":-4,"min_weight":-2}' --encoder "spike" --decoder "rate"
+  Selected Fitness: 2.62174e-05
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  44
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 128 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":8}' --extra_proc_params '{"discrete":false,"leak_mode":"all","max_delay":4,"max_threshold":8,"max_weight":2,"min_potential":-4,"min_weight":-2}' --encoder "spike" --decoder "ttls"
+  Selected Fitness: 0.00400498
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  45
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":32}' --extra_proc_params '{"discrete":false,"leak_mode":"all","max_delay":8,"max_threshold":2,"max_weight":4,"min_potential":-8,"min_weight":-1}' --encoder "rate" --decoder "ttls"
+  Selected Fitness: 0.0145675
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  46
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":16}' --extra_proc_params '{"discrete":true,"leak_mode":"none","max_delay":2,"max_threshold":2,"max_weight":16,"min_potential":-1,"min_weight":-4}' --encoder "val" --decoder "ttls"
+  Selected Fitness: 0.00892649
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  47
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":4}' --extra_proc_params '{"discrete":true,"leak_mode":"none","max_delay":2,"max_threshold":1,"max_weight":16,"min_potential":-4,"min_weight":-1}' --encoder "spike" --decoder "rate"
+  Selected Fitness: 0.0982597
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  48
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 16 --extra_eons_params '{"starting_edges":128}' --extra_app_params '{"output_dimensions":16}' --extra_proc_params '{"discrete":true,"leak_mode":"all","max_delay":4,"max_threshold":4,"max_weight":4,"min_potential":-4,"min_weight":-2}' --encoder "val" --decoder "rate"
+  Selected Fitness: 0.0204638
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  49
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 128 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":8}' --extra_proc_params '{"discrete":true,"leak_mode":"all","max_delay":2,"max_threshold":4,"max_weight":4,"min_potential":-1,"min_weight":-2}' --encoder "spikes" --decoder "rate"
+  Selected Fitness: 0.000231483
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  50
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 128 --extra_eons_params '{"starting_edges":128}' --extra_app_params '{"output_dimensions":2}' --extra_proc_params '{"discrete":false,"leak_mode":"all","max_delay":4,"max_threshold":16,"max_weight":2,"min_potential":-2,"min_weight":-1}' --encoder "temporal" --decoder "rate"
+  Selected Fitness: 0.00128272
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  51
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":16}' --extra_proc_params '{"discrete":true,"leak_mode":"none","max_delay":2,"max_threshold":1,"max_weight":16,"min_potential":-4,"min_weight":-2}' --encoder "spikes" --decoder "ttls"
+  Selected Fitness: 6.76518e-05
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  52
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 16 --extra_eons_params '{"starting_edges":128}' --extra_app_params '{"output_dimensions":16}' --extra_proc_params '{"discrete":true,"leak_mode":"none","max_delay":16,"max_threshold":8,"max_weight":2,"min_potential":-4,"min_weight":-2}' --encoder "spikes" --decoder "ttls"
+  Selected Fitness: 0.00143958
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  53
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":32}' --extra_proc_params '{"discrete":false,"leak_mode":"all","max_delay":8,"max_threshold":2,"max_weight":16,"min_potential":-1,"min_weight":-1}' --encoder "spike" --decoder "ttls"
+  Selected Fitness: 0.02256
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  54
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 16 --extra_eons_params '{"starting_edges":128}' --extra_app_params '{"output_dimensions":2}' --extra_proc_params '{"discrete":true,"leak_mode":"all","max_delay":4,"max_threshold":1,"max_weight":2,"min_potential":-1,"min_weight":-1}' --encoder "val" --decoder "ttls"
+  Selected Fitness: 0.0360225
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  55
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params '{"starting_edges":128}' --extra_app_params '{"output_dimensions":16}' --extra_proc_params '{"discrete":false,"leak_mode":"none","max_delay":4,"max_threshold":8,"max_weight":8,"min_potential":-4,"min_weight":-2}' --encoder "val" --decoder "rate"
+  Selected Fitness: 0.0141868
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  56
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":32}' --extra_proc_params '{"discrete":true,"leak_mode":"all","max_delay":2,"max_threshold":8,"max_weight":4,"min_potential":-2,"min_weight":-1}' --encoder "rate" --decoder "ttls"
+  Selected Fitness: 0.0144487
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  57
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 8 --extra_eons_params '{"starting_edges":64}' --extra_app_params '{"output_dimensions":8}' --extra_proc_params '{"discrete":false,"leak_mode":"all","max_delay":2,"max_threshold":16,"max_weight":2,"min_potential":-8,"min_weight":-4}' --encoder "val" --decoder "rate"
+  Selected Fitness: 0.00467526
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  58
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 128 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":8}' --extra_proc_params '{"discrete":true,"leak_mode":"none","max_delay":8,"max_threshold":1,"max_weight":16,"min_potential":-2,"min_weight":-2}' --encoder "spike" --decoder "rate"
+  Selected Fitness: 0.111732
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  59
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":8}' --extra_proc_params '{"discrete":false,"leak_mode":"all","max_delay":16,"max_threshold":2,"max_weight":8,"min_potential":-2,"min_weight":-4}' --encoder "spikes" --decoder "rate"
+  Selected Fitness: 0.000175228
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  60
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params '{"starting_edges":64}' --extra_app_params '{"output_dimensions":2}' --extra_proc_params '{"discrete":false,"leak_mode":"none","max_delay":16,"max_threshold":2,"max_weight":4,"min_potential":-8,"min_weight":-2}' --encoder "spike" --decoder "rate"
+  Selected Fitness: 0.00173818
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  61
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":4}' --extra_proc_params '{"discrete":false,"leak_mode":"all","max_delay":8,"max_threshold":8,"max_weight":16,"min_potential":-1,"min_weight":-2}' --encoder "spike" --decoder "ttls"
+  Selected Fitness: 0.143008
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  62
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params '{"starting_edges":128}' --extra_app_params '{"output_dimensions":8}' --extra_proc_params '{"discrete":false,"leak_mode":"none","max_delay":4,"max_threshold":4,"max_weight":8,"min_potential":-4,"min_weight":-2}' --encoder "spikes" --decoder "rate"
+  Selected Fitness: 0.0216616
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  63
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 16 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":16}' --extra_proc_params '{"discrete":true,"leak_mode":"all","max_delay":2,"max_threshold":16,"max_weight":4,"min_potential":-4,"min_weight":-1}' --encoder "rate" --decoder "rate"
+  Selected Fitness: 0.00262339
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  64
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":16}' --extra_proc_params '{"discrete":true,"leak_mode":"none","max_delay":4,"max_threshold":8,"max_weight":8,"min_potential":-2,"min_weight":-2}' --encoder "spikes" --decoder "ttls"
+  Selected Fitness: 0.0137056
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  65
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 8 --extra_eons_params '{"starting_edges":64}' --extra_app_params '{"output_dimensions":16}' --extra_proc_params '{"discrete":true,"leak_mode":"all","max_delay":8,"max_threshold":4,"max_weight":8,"min_potential":-2,"min_weight":-2}' --encoder "spike" --decoder "ttls"
+  Selected Fitness: 0.000287206
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  66
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 16 --extra_eons_params '{"starting_edges":64}' --extra_app_params '{"output_dimensions":4}' --extra_proc_params '{"discrete":true,"leak_mode":"none","max_delay":4,"max_threshold":2,"max_weight":1,"min_potential":-4,"min_weight":-4}' --encoder "spike" --decoder "ttls"
+  Selected Fitness: 0.00542045
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  67
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 8 --extra_eons_params '{"starting_edges":128}' --extra_app_params '{"output_dimensions":32}' --extra_proc_params '{"discrete":false,"leak_mode":"all","max_delay":2,"max_threshold":4,"max_weight":8,"min_potential":-1,"min_weight":-1}' --encoder "spikes" --decoder "rate"
+  Selected Fitness: 0.0160199
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  68
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 128 --extra_eons_params '{"starting_edges":128}' --extra_app_params '{"output_dimensions":4}' --extra_proc_params '{"discrete":true,"leak_mode":"none","max_delay":8,"max_threshold":2,"max_weight":8,"min_potential":-4,"min_weight":-4}' --encoder "spikes" --decoder "rate"
+  Selected Fitness: 0.00046406
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  69
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 8 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":32}' --extra_proc_params '{"discrete":false,"leak_mode":"all","max_delay":8,"max_threshold":8,"max_weight":8,"min_potential":-4,"min_weight":-4}' --encoder "spikes" --decoder "ttls"
+  Selected Fitness: 0.0114843
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  70
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 16 --extra_eons_params '{"starting_edges":128}' --extra_app_params '{"output_dimensions":8}' --extra_proc_params '{"discrete":false,"leak_mode":"none","max_delay":16,"max_threshold":1,"max_weight":1,"min_potential":-2,"min_weight":-2}' --encoder "rate" --decoder "ttls"
+  Selected Fitness: 0.0036491
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  71
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params '{"starting_edges":128}' --extra_app_params '{"output_dimensions":8}' --extra_proc_params '{"discrete":false,"leak_mode":"all","max_delay":1,"max_threshold":2,"max_weight":8,"min_potential":-8,"min_weight":-2}' --encoder "rate" --decoder "ttls"
+  Selected Fitness: 5.99019e-05
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  72
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params '{"starting_edges":64}' --extra_app_params '{"output_dimensions":4}' --extra_proc_params '{"discrete":false,"leak_mode":"all","max_delay":2,"max_threshold":8,"max_weight":4,"min_potential":-2,"min_weight":-2}' --encoder "rate" --decoder "ttls"
+  Selected Fitness: 0.000449739
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  73
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 128 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":32}' --extra_proc_params '{"discrete":true,"leak_mode":"all","max_delay":8,"max_threshold":16,"max_weight":8,"min_potential":-4,"min_weight":-2}' --encoder "rate" --decoder "rate"
+  Selected Fitness: 0.0183323
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  74
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 16 --extra_eons_params '{"starting_edges":64}' --extra_app_params '{"output_dimensions":4}' --extra_proc_params '{"discrete":false,"leak_mode":"all","max_delay":8,"max_threshold":4,"max_weight":8,"min_potential":-4,"min_weight":-2}' --encoder "rate" --decoder "rate"
+  Selected Fitness: 0.000560254
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  75
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params '{"starting_edges":64}' --extra_app_params '{"output_dimensions":16}' --extra_proc_params '{"discrete":false,"leak_mode":"none","max_delay":2,"max_threshold":1,"max_weight":8,"min_potential":-4,"min_weight":-4}' --encoder "rate" --decoder "ttls"
+  Selected Fitness: 0.000178205
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  76
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params '{"starting_edges":128}' --extra_app_params '{"output_dimensions":8}' --extra_proc_params '{"discrete":true,"leak_mode":"none","max_delay":8,"max_threshold":8,"max_weight":8,"min_potential":-4,"min_weight":-2}' --encoder "rate" --decoder "ttls"
+  Selected Fitness: 0.00356238
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  77
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 128 --extra_eons_params '{"starting_edges":64}' --extra_app_params '{"output_dimensions":4}' --extra_proc_params '{"discrete":false,"leak_mode":"all","max_delay":8,"max_threshold":8,"max_weight":8,"min_potential":-1,"min_weight":-2}' --encoder "spikes" --decoder "rate"
+  Selected Fitness: 0.000320776
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  78
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 8 --extra_eons_params '{"starting_edges":64}' --extra_app_params '{"output_dimensions":32}' --extra_proc_params '{"discrete":true,"leak_mode":"all","max_delay":16,"max_threshold":8,"max_weight":8,"min_potential":-8,"min_weight":-2}' --encoder "val" --decoder "rate"
+  Selected Fitness: 0.000105767
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  79
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":16}' --extra_proc_params '{"discrete":false,"leak_mode":"none","max_delay":8,"max_threshold":1,"max_weight":8,"min_potential":-8,"min_weight":-2}' --encoder "temporal" --decoder "ttls"
+  Selected Fitness: 6.37676e-05
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  80
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params '{"starting_edges":128}' --extra_app_params '{"output_dimensions":8}' --extra_proc_params '{"discrete":false,"leak_mode":"all","max_delay":4,"max_threshold":4,"max_weight":2,"min_potential":-2,"min_weight":-4}' --encoder "spike" --decoder "rate"
+  Selected Fitness: 0.00467236
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  81
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params '{"starting_edges":64}' --extra_app_params '{"output_dimensions":32}' --extra_proc_params '{"discrete":true,"leak_mode":"none","max_delay":8,"max_threshold":1,"max_weight":4,"min_potential":-4,"min_weight":-1}' --encoder "spikes" --decoder "rate"
+  Selected Fitness: 0.0175999
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  82
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":8}' --extra_proc_params '{"discrete":false,"leak_mode":"none","max_delay":8,"max_threshold":8,"max_weight":4,"min_potential":-1,"min_weight":-1}' --encoder "spike" --decoder "rate"
+  Selected Fitness: 0.0039586
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  83
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 128 --extra_eons_params '{"starting_edges":128}' --extra_app_params '{"output_dimensions":32}' --extra_proc_params '{"discrete":false,"leak_mode":"all","max_delay":1,"max_threshold":16,"max_weight":4,"min_potential":-1,"min_weight":-1}' --encoder "spikes" --decoder "rate"
+  Selected Fitness: 0.0222818
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  84
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":4}' --extra_proc_params '{"discrete":true,"leak_mode":"none","max_delay":8,"max_threshold":4,"max_weight":16,"min_potential":-8,"min_weight":-2}' --encoder "val" --decoder "rate"
+  Selected Fitness: 0.14332
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  85
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params '{"starting_edges":128}' --extra_app_params '{"output_dimensions":4}' --extra_proc_params '{"discrete":false,"leak_mode":"none","max_delay":16,"max_threshold":8,"max_weight":8,"min_potential":-4,"min_weight":-1}' --encoder "spikes" --decoder "ttls"
+  Selected Fitness: 0
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  86
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params '{"starting_edges":64}' --extra_app_params '{"output_dimensions":4}' --extra_proc_params '{"discrete":false,"leak_mode":"all","max_delay":4,"max_threshold":2,"max_weight":8,"min_potential":-2,"min_weight":-2}' --encoder "val" --decoder "rate"
+  Selected Fitness: 0.000652743
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  87
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 128 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":4}' --extra_proc_params '{"discrete":false,"leak_mode":"all","max_delay":1,"max_threshold":8,"max_weight":4,"min_potential":-4,"min_weight":-2}' --encoder "spike" --decoder "ttls"
+  Selected Fitness: 0.0005567
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  88
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":8}' --extra_proc_params '{"discrete":false,"leak_mode":"all","max_delay":4,"max_threshold":16,"max_weight":8,"min_potential":-8,"min_weight":-2}' --encoder "rate" --decoder "ttls"
+  Selected Fitness: 0.00057865
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  89
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 16 --extra_eons_params '{"starting_edges":128}' --extra_app_params '{"output_dimensions":32}' --extra_proc_params '{"discrete":false,"leak_mode":"all","max_delay":2,"max_threshold":16,"max_weight":16,"min_potential":-2,"min_weight":-4}' --encoder "rate" --decoder "ttls"
+  Selected Fitness: 0.0106202
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  90
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params '{"starting_edges":128}' --extra_app_params '{"output_dimensions":32}' --extra_proc_params '{"discrete":false,"leak_mode":"all","max_delay":2,"max_threshold":2,"max_weight":2,"min_potential":-8,"min_weight":-1}' --encoder "spikes" --decoder "rate"
+  Selected Fitness: 0.0101358
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  91
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":4}' --extra_proc_params '{"discrete":true,"leak_mode":"none","max_delay":16,"max_threshold":8,"max_weight":2,"min_potential":-1,"min_weight":-2}' --encoder "rate" --decoder "rate"
+  Selected Fitness: 0.000642005
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  92
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params '{"starting_edges":128}' --extra_app_params '{"output_dimensions":2}' --extra_proc_params '{"discrete":true,"leak_mode":"all","max_delay":2,"max_threshold":16,"max_weight":4,"min_potential":-8,"min_weight":-2}' --encoder "spike" --decoder "rate"
+  Selected Fitness: 0.00997487
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  93
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":4}' --extra_proc_params '{"discrete":false,"leak_mode":"none","max_delay":2,"max_threshold":8,"max_weight":8,"min_potential":-2,"min_weight":-1}' --encoder "val" --decoder "ttls"
+  Selected Fitness: 0.000495153
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  94
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 128 --extra_eons_params '{"starting_edges":64}' --extra_app_params '{"output_dimensions":4}' --extra_proc_params '{"discrete":true,"leak_mode":"all","max_delay":8,"max_threshold":2,"max_weight":8,"min_potential":-1,"min_weight":-1}' --encoder "rate" --decoder "ttls"
+  Selected Fitness: 0
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  95
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params '{"starting_edges":128}' --extra_app_params '{"output_dimensions":32}' --extra_proc_params '{"discrete":true,"leak_mode":"none","max_delay":4,"max_threshold":4,"max_weight":2,"min_potential":-8,"min_weight":-2}' --encoder "rate" --decoder "rate"
+  Selected Fitness: 0.0146839
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  96
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params '{"starting_edges":64}' --extra_app_params '{"output_dimensions":32}' --extra_proc_params '{"discrete":true,"leak_mode":"all","max_delay":2,"max_threshold":1,"max_weight":8,"min_potential":-2,"min_weight":-1}' --encoder "val" --decoder "ttls"
+  Selected Fitness: 0.0114067
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  97
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 128 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":4}' --extra_proc_params '{"discrete":false,"leak_mode":"none","max_delay":2,"max_threshold":16,"max_weight":16,"min_potential":-4,"min_weight":-4}' --encoder "val" --decoder "ttls"
+  Selected Fitness: 0.0921347
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  98
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params '{"starting_edges":128}' --extra_app_params '{"output_dimensions":8}' --extra_proc_params '{"discrete":true,"leak_mode":"all","max_delay":1,"max_threshold":2,"max_weight":2,"min_potential":-2,"min_weight":-2}' --encoder "temporal" --decoder "ttls"
+  Selected Fitness: 0.000342865
+
+Best Fitness = 0.175604
+
+Bayes Iteration :  99
+  Cmd: bin/dimensionality_reduction_risp -a train --app_params 03/dimensionality_reduction.json --eons_params 03/eons.json --proc_params 03/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params '{"starting_edges":96}' --extra_app_params '{"output_dimensions":16}' --extra_proc_params '{"discrete":true,"leak_mode":"none","max_delay":2,"max_threshold":8,"max_weight":4,"min_potential":-2,"min_weight":-2}' --encoder "temporal" --decoder "rate"
+  Selected Fitness: 0.00031693
+
+Best Fitness = 0.175604
+

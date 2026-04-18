@@ -1,0 +1,3 @@
+The graphs only contain information on the runs with
+fitnesses better than -1000; the runs with fitnesses
+less than or equal to -1000 are not considered.

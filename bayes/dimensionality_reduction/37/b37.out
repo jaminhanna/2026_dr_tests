@@ -1,0 +1,513 @@
+{
+  "app_params": {
+    "output_dimensions": [
+      2,
+      4,
+      8,
+      16,
+      32
+    ],
+    "tau": [
+      5,
+      10,
+      15
+    ]
+  },
+  "app_proc": "dimensionality_reduction_risp",
+  "argv": "../bin/bayes --input_file /lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/b37.in --output_file /lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/b37.out --n_calls 25 -d /lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks ",
+  "bayes_iteration": 25,
+  "bayes_iteration_type": "median",
+  "best_fitness": [
+    {
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 128 --extra_eons_params {\"starting_edges\":96} --extra_app_params {\"output_dimensions\":4,\"tau\":15} --extra_proc_params {\"discrete\":true,\"leak_mode\":\"all\",\"max_delay\":4,\"max_threshold\":8,\"max_weight\":2,\"min_potential\":-1,\"min_weight\":-4} --encoder \"rate\" --decoder \"rate\"",
+      "fitness": 0.147214,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_22"
+    },
+    {
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 8 --extra_eons_params {\"starting_edges\":128} --extra_app_params {\"output_dimensions\":32,\"tau\":15} --extra_proc_params {\"discrete\":false,\"leak_mode\":\"all\",\"max_delay\":16,\"max_threshold\":1,\"max_weight\":8,\"min_potential\":-1,\"min_weight\":-4} --encoder \"spike\" --decoder \"ttls\"",
+      "fitness": 0.146008,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_9"
+    },
+    {
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params {\"starting_edges\":96} --extra_app_params {\"output_dimensions\":16,\"tau\":5} --extra_proc_params {\"discrete\":false,\"leak_mode\":\"all\",\"max_delay\":8,\"max_threshold\":16,\"max_weight\":2,\"min_potential\":-4,\"min_weight\":-2} --encoder \"rate\" --decoder \"ttls\"",
+      "fitness": 0.110249,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_16"
+    },
+    {
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params {\"starting_edges\":64} --extra_app_params {\"output_dimensions\":32,\"tau\":5} --extra_proc_params {\"discrete\":false,\"leak_mode\":\"all\",\"max_delay\":8,\"max_threshold\":4,\"max_weight\":2,\"min_potential\":-1,\"min_weight\":-4} --encoder \"spikes\" --decoder \"rate\"",
+      "fitness": 0.0774065,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_14"
+    },
+    {
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params {\"starting_edges\":64} --extra_app_params {\"output_dimensions\":16,\"tau\":10} --extra_proc_params {\"discrete\":true,\"leak_mode\":\"none\",\"max_delay\":8,\"max_threshold\":4,\"max_weight\":2,\"min_potential\":-2,\"min_weight\":-2} --encoder \"temporal\" --decoder \"ttls\"",
+      "fitness": 0.0482993,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_23"
+    },
+    {
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params {\"starting_edges\":64} --extra_app_params {\"output_dimensions\":4,\"tau\":10} --extra_proc_params {\"discrete\":true,\"leak_mode\":\"all\",\"max_delay\":2,\"max_threshold\":2,\"max_weight\":16,\"min_potential\":-4,\"min_weight\":-4} --encoder \"temporal\" --decoder \"ttls\"",
+      "fitness": 0.0464916,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_13"
+    },
+    {
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params {\"starting_edges\":96} --extra_app_params {\"output_dimensions\":2,\"tau\":10} --extra_proc_params {\"discrete\":true,\"leak_mode\":\"all\",\"max_delay\":2,\"max_threshold\":4,\"max_weight\":2,\"min_potential\":-8,\"min_weight\":-1} --encoder \"temporal\" --decoder \"rate\"",
+      "fitness": 0.0362563,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_11"
+    },
+    {
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 16 --extra_eons_params {\"starting_edges\":128} --extra_app_params {\"output_dimensions\":2,\"tau\":5} --extra_proc_params {\"discrete\":true,\"leak_mode\":\"none\",\"max_delay\":4,\"max_threshold\":1,\"max_weight\":16,\"min_potential\":-1,\"min_weight\":-2} --encoder \"rate\" --decoder \"ttls\"",
+      "fitness": -2.06067e-16,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_7"
+    },
+    {
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 16 --extra_eons_params {\"starting_edges\":128} --extra_app_params {\"output_dimensions\":4,\"tau\":10} --extra_proc_params {\"discrete\":false,\"leak_mode\":\"none\",\"max_delay\":2,\"max_threshold\":8,\"max_weight\":8,\"min_potential\":-4,\"min_weight\":-4} --encoder \"rate\" --decoder \"ttls\"",
+      "fitness": -0.0180769,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_10"
+    },
+    {
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 16 --extra_eons_params {\"starting_edges\":128} --extra_app_params {\"output_dimensions\":4,\"tau\":10} --extra_proc_params {\"discrete\":true,\"leak_mode\":\"none\",\"max_delay\":2,\"max_threshold\":2,\"max_weight\":8,\"min_potential\":-2,\"min_weight\":-4} --encoder \"spike\" --decoder \"rate\"",
+      "fitness": -0.0674669,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_4"
+    },
+    {
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params {\"starting_edges\":96} --extra_app_params {\"output_dimensions\":4,\"tau\":5} --extra_proc_params {\"discrete\":false,\"leak_mode\":\"all\",\"max_delay\":1,\"max_threshold\":2,\"max_weight\":8,\"min_potential\":-4,\"min_weight\":-2} --encoder \"spikes\" --decoder \"rate\"",
+      "fitness": -0.0804672,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_21"
+    },
+    {
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params {\"starting_edges\":64} --extra_app_params {\"output_dimensions\":2,\"tau\":10} --extra_proc_params {\"discrete\":false,\"leak_mode\":\"none\",\"max_delay\":4,\"max_threshold\":1,\"max_weight\":4,\"min_potential\":-4,\"min_weight\":-2} --encoder \"spikes\" --decoder \"rate\"",
+      "fitness": -0.115952,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_15"
+    },
+    {
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params {\"starting_edges\":96} --extra_app_params {\"output_dimensions\":4,\"tau\":10} --extra_proc_params {\"discrete\":false,\"leak_mode\":\"all\",\"max_delay\":2,\"max_threshold\":2,\"max_weight\":2,\"min_potential\":-4,\"min_weight\":-1} --encoder \"spikes\" --decoder \"rate\"",
+      "fitness": -0.212899,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_3"
+    },
+    {
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params {\"starting_edges\":96} --extra_app_params {\"output_dimensions\":8,\"tau\":15} --extra_proc_params {\"discrete\":false,\"leak_mode\":\"all\",\"max_delay\":1,\"max_threshold\":8,\"max_weight\":4,\"min_potential\":-2,\"min_weight\":-4} --encoder \"val\" --decoder \"ttls\"",
+      "fitness": -0.294711,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_12"
+    },
+    {
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params {\"starting_edges\":128} --extra_app_params {\"output_dimensions\":8,\"tau\":15} --extra_proc_params {\"discrete\":true,\"leak_mode\":\"all\",\"max_delay\":2,\"max_threshold\":2,\"max_weight\":1,\"min_potential\":-2,\"min_weight\":-2} --encoder \"spikes\" --decoder \"rate\"",
+      "fitness": -0.578451,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_24"
+    },
+    {
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params {\"starting_edges\":96} --extra_app_params {\"output_dimensions\":8,\"tau\":5} --extra_proc_params {\"discrete\":true,\"leak_mode\":\"none\",\"max_delay\":1,\"max_threshold\":2,\"max_weight\":4,\"min_potential\":-8,\"min_weight\":-4} --encoder \"rate\" --decoder \"rate\"",
+      "fitness": -1000000.0,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_2"
+    }
+  ],
+  "command": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10",
+  "command_params": {
+    "sim_time": [
+      8,
+      16,
+      32,
+      64,
+      128
+    ]
+  },
+  "data_points": [
+    {
+      "best": -0.115952,
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params {\"starting_edges\":64} --extra_app_params {\"output_dimensions\":2,\"tau\":10} --extra_proc_params {\"discrete\":false,\"leak_mode\":\"none\",\"max_delay\":4,\"max_threshold\":1,\"max_weight\":4,\"min_potential\":-4,\"min_weight\":-2} --encoder \"spikes\" --decoder \"rate\"",
+      "fitness": [
+        -0.115952,
+        -0.164427,
+        -0.146069
+      ],
+      "hyperparam": "0.000000000-0.000000000-1.000000000-1.000000000-1.000000000-2.000000000-0.000000000-2.000000000-1.000000000-1.000000000-2.000000000-3.000000000-1.000000000",
+      "mean": -0.14214933333333332,
+      "median": -0.146069,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_15"
+    },
+    {
+      "best": 0.0464916,
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params {\"starting_edges\":64} --extra_app_params {\"output_dimensions\":4,\"tau\":10} --extra_proc_params {\"discrete\":true,\"leak_mode\":\"all\",\"max_delay\":2,\"max_threshold\":2,\"max_weight\":16,\"min_potential\":-4,\"min_weight\":-4} --encoder \"temporal\" --decoder \"ttls\"",
+      "fitness": [
+        0.0464916,
+        0.0404788,
+        0.00197943
+      ],
+      "hyperparam": "0.000000000-1.000000000-1.000000000-0.000000000-0.000000000-1.000000000-1.000000000-4.000000000-1.000000000-0.000000000-3.000000000-4.000000000-0.000000000",
+      "mean": 0.029649943333333335,
+      "median": 0.0404788,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_13"
+    },
+    {
+      "best": 0.0482993,
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params {\"starting_edges\":64} --extra_app_params {\"output_dimensions\":16,\"tau\":10} --extra_proc_params {\"discrete\":true,\"leak_mode\":\"none\",\"max_delay\":8,\"max_threshold\":4,\"max_weight\":2,\"min_potential\":-2,\"min_weight\":-2} --encoder \"temporal\" --decoder \"ttls\"",
+      "fitness": [
+        -1000000000.0,
+        -1000000000.0,
+        0.0482993
+      ],
+      "hyperparam": "0.000000000-3.000000000-1.000000000-0.000000000-1.000000000-3.000000000-2.000000000-1.000000000-2.000000000-1.000000000-3.000000000-4.000000000-0.000000000",
+      "mean": -666666666.6505669,
+      "median": -1000000000.0,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_23"
+    },
+    {
+      "best": -1000000000.0,
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params {\"starting_edges\":64} --extra_app_params {\"output_dimensions\":16,\"tau\":10} --extra_proc_params {\"discrete\":false,\"leak_mode\":\"all\",\"max_delay\":16,\"max_threshold\":8,\"max_weight\":8,\"min_potential\":-1,\"min_weight\":-4} --encoder \"spike\" --decoder \"rate\"",
+      "fitness": [
+        -1000000000.0,
+        -1000000000.0,
+        -1000000000.0
+      ],
+      "hyperparam": "0.000000000-3.000000000-1.000000000-1.000000000-0.000000000-4.000000000-3.000000000-3.000000000-3.000000000-0.000000000-3.000000000-1.000000000-1.000000000",
+      "mean": -1000000000.0,
+      "median": -1000000000.0,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_17"
+    },
+    {
+      "best": -1000000000.0,
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params {\"starting_edges\":64} --extra_app_params {\"output_dimensions\":32,\"tau\":5} --extra_proc_params {\"discrete\":false,\"leak_mode\":\"all\",\"max_delay\":2,\"max_threshold\":4,\"max_weight\":4,\"min_potential\":-8,\"min_weight\":-4} --encoder \"val\" --decoder \"ttls\"",
+      "fitness": [
+        -1000000000.0,
+        -1000000000.0,
+        -1000000000.0
+      ],
+      "hyperparam": "0.000000000-4.000000000-0.000000000-1.000000000-0.000000000-1.000000000-2.000000000-2.000000000-0.000000000-0.000000000-2.000000000-0.000000000-0.000000000",
+      "mean": -1000000000.0,
+      "median": -1000000000.0,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_20"
+    },
+    {
+      "best": 0.0774065,
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params {\"starting_edges\":64} --extra_app_params {\"output_dimensions\":32,\"tau\":5} --extra_proc_params {\"discrete\":false,\"leak_mode\":\"all\",\"max_delay\":8,\"max_threshold\":4,\"max_weight\":2,\"min_potential\":-1,\"min_weight\":-4} --encoder \"spikes\" --decoder \"rate\"",
+      "fitness": [
+        -1000000000.0,
+        0.0774065,
+        -1.0
+      ],
+      "hyperparam": "0.000000000-4.000000000-0.000000000-1.000000000-0.000000000-3.000000000-2.000000000-1.000000000-3.000000000-0.000000000-3.000000000-3.000000000-1.000000000",
+      "mean": -333333333.6408645,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_14"
+    },
+    {
+      "best": 0.0362563,
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params {\"starting_edges\":96} --extra_app_params {\"output_dimensions\":2,\"tau\":10} --extra_proc_params {\"discrete\":true,\"leak_mode\":\"all\",\"max_delay\":2,\"max_threshold\":4,\"max_weight\":2,\"min_potential\":-8,\"min_weight\":-1} --encoder \"temporal\" --decoder \"rate\"",
+      "fitness": [
+        0.0362563,
+        -1000000000.0,
+        -1000000000.0
+      ],
+      "hyperparam": "1.000000000-0.000000000-1.000000000-0.000000000-0.000000000-1.000000000-2.000000000-1.000000000-0.000000000-2.000000000-3.000000000-4.000000000-1.000000000",
+      "mean": -666666666.6545812,
+      "median": -1000000000.0,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_11"
+    },
+    {
+      "best": -1000000000.0,
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params {\"starting_edges\":96} --extra_app_params {\"output_dimensions\":4,\"tau\":5} --extra_proc_params {\"discrete\":true,\"leak_mode\":\"none\",\"max_delay\":4,\"max_threshold\":2,\"max_weight\":16,\"min_potential\":-2,\"min_weight\":-4} --encoder \"rate\" --decoder \"rate\"",
+      "fitness": [
+        -1000000000.0,
+        -1000000000.0,
+        -1000000000.0
+      ],
+      "hyperparam": "1.000000000-1.000000000-0.000000000-0.000000000-1.000000000-2.000000000-1.000000000-4.000000000-2.000000000-0.000000000-3.000000000-2.000000000-1.000000000",
+      "mean": -1000000000.0,
+      "median": -1000000000.0,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_8"
+    },
+    {
+      "best": -0.0804672,
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params {\"starting_edges\":96} --extra_app_params {\"output_dimensions\":4,\"tau\":5} --extra_proc_params {\"discrete\":false,\"leak_mode\":\"all\",\"max_delay\":1,\"max_threshold\":2,\"max_weight\":8,\"min_potential\":-4,\"min_weight\":-2} --encoder \"spikes\" --decoder \"rate\"",
+      "fitness": [
+        -1000000000.0,
+        -0.0804672,
+        -0.13134
+      ],
+      "hyperparam": "1.000000000-1.000000000-0.000000000-1.000000000-0.000000000-0.000000000-1.000000000-3.000000000-1.000000000-1.000000000-2.000000000-3.000000000-1.000000000",
+      "mean": -333333333.40393573,
+      "median": -0.13134,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_21"
+    },
+    {
+      "best": -0.212899,
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params {\"starting_edges\":96} --extra_app_params {\"output_dimensions\":4,\"tau\":10} --extra_proc_params {\"discrete\":false,\"leak_mode\":\"all\",\"max_delay\":2,\"max_threshold\":2,\"max_weight\":2,\"min_potential\":-4,\"min_weight\":-1} --encoder \"spikes\" --decoder \"rate\"",
+      "fitness": [
+        -0.212899,
+        -1000000000.0,
+        -0.52813
+      ],
+      "hyperparam": "1.000000000-1.000000000-1.000000000-1.000000000-0.000000000-1.000000000-1.000000000-1.000000000-1.000000000-2.000000000-2.000000000-3.000000000-1.000000000",
+      "mean": -333333333.580343,
+      "median": -0.52813,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_3"
+    },
+    {
+      "best": 0.147214,
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 128 --extra_eons_params {\"starting_edges\":96} --extra_app_params {\"output_dimensions\":4,\"tau\":15} --extra_proc_params {\"discrete\":true,\"leak_mode\":\"all\",\"max_delay\":4,\"max_threshold\":8,\"max_weight\":2,\"min_potential\":-1,\"min_weight\":-4} --encoder \"rate\" --decoder \"rate\"",
+      "fitness": [
+        0.135561,
+        0.147214,
+        -1000000000.0
+      ],
+      "hyperparam": "1.000000000-1.000000000-2.000000000-0.000000000-0.000000000-2.000000000-3.000000000-1.000000000-3.000000000-0.000000000-4.000000000-2.000000000-1.000000000",
+      "mean": -333333333.239075,
+      "median": 0.135561,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_22"
+    },
+    {
+      "best": -1000000000.0,
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params {\"starting_edges\":96} --extra_app_params {\"output_dimensions\":8,\"tau\":5} --extra_proc_params {\"discrete\":true,\"leak_mode\":\"none\",\"max_delay\":1,\"max_threshold\":2,\"max_weight\":4,\"min_potential\":-8,\"min_weight\":-4} --encoder \"rate\" --decoder \"rate\"",
+      "fitness": [
+        -1000000000.0,
+        -1000000000.0,
+        -1000000000.0
+      ],
+      "hyperparam": "1.000000000-2.000000000-0.000000000-0.000000000-1.000000000-0.000000000-1.000000000-2.000000000-0.000000000-0.000000000-3.000000000-2.000000000-1.000000000",
+      "mean": -1000000000.0,
+      "median": -1000000000.0,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_2"
+    },
+    {
+      "best": -1000000000.0,
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params {\"starting_edges\":96} --extra_app_params {\"output_dimensions\":8,\"tau\":10} --extra_proc_params {\"discrete\":true,\"leak_mode\":\"all\",\"max_delay\":4,\"max_threshold\":8,\"max_weight\":8,\"min_potential\":-2,\"min_weight\":-2} --encoder \"temporal\" --decoder \"ttls\"",
+      "fitness": [
+        -1000000000.0,
+        -1000000000.0,
+        -1000000000.0
+      ],
+      "hyperparam": "1.000000000-2.000000000-1.000000000-0.000000000-0.000000000-2.000000000-3.000000000-3.000000000-2.000000000-1.000000000-2.000000000-4.000000000-0.000000000",
+      "mean": -1000000000.0,
+      "median": -1000000000.0,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_19"
+    },
+    {
+      "best": -1000000000.0,
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params {\"starting_edges\":96} --extra_app_params {\"output_dimensions\":8,\"tau\":15} --extra_proc_params {\"discrete\":true,\"leak_mode\":\"none\",\"max_delay\":4,\"max_threshold\":1,\"max_weight\":1,\"min_potential\":-2,\"min_weight\":-2} --encoder \"temporal\" --decoder \"ttls\"",
+      "fitness": [
+        -1000000000.0,
+        -1000000000.0,
+        -1000000000.0
+      ],
+      "hyperparam": "1.000000000-2.000000000-2.000000000-0.000000000-1.000000000-2.000000000-0.000000000-0.000000000-2.000000000-1.000000000-2.000000000-4.000000000-0.000000000",
+      "mean": -1000000000.0,
+      "median": -1000000000.0,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_25"
+    },
+    {
+      "best": -0.294711,
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params {\"starting_edges\":96} --extra_app_params {\"output_dimensions\":8,\"tau\":15} --extra_proc_params {\"discrete\":false,\"leak_mode\":\"all\",\"max_delay\":1,\"max_threshold\":8,\"max_weight\":4,\"min_potential\":-2,\"min_weight\":-4} --encoder \"val\" --decoder \"ttls\"",
+      "fitness": [
+        -1000000000.0,
+        -0.294711,
+        -1000000000.0
+      ],
+      "hyperparam": "1.000000000-2.000000000-2.000000000-1.000000000-0.000000000-0.000000000-3.000000000-2.000000000-2.000000000-0.000000000-2.000000000-0.000000000-0.000000000",
+      "mean": -666666666.7649037,
+      "median": -1000000000.0,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_12"
+    },
+    {
+      "best": -1000000000.0,
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 16 --extra_eons_params {\"starting_edges\":96} --extra_app_params {\"output_dimensions\":16,\"tau\":5} --extra_proc_params {\"discrete\":true,\"leak_mode\":\"all\",\"max_delay\":2,\"max_threshold\":2,\"max_weight\":4,\"min_potential\":-2,\"min_weight\":-1} --encoder \"spike\" --decoder \"ttls\"",
+      "fitness": [
+        -1000000000.0,
+        -1000000000.0,
+        -1000000000.0
+      ],
+      "hyperparam": "1.000000000-3.000000000-0.000000000-0.000000000-0.000000000-1.000000000-1.000000000-2.000000000-2.000000000-2.000000000-1.000000000-1.000000000-0.000000000",
+      "mean": -1000000000.0,
+      "median": -1000000000.0,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_1"
+    },
+    {
+      "best": 0.110249,
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params {\"starting_edges\":96} --extra_app_params {\"output_dimensions\":16,\"tau\":5} --extra_proc_params {\"discrete\":false,\"leak_mode\":\"all\",\"max_delay\":8,\"max_threshold\":16,\"max_weight\":2,\"min_potential\":-4,\"min_weight\":-2} --encoder \"rate\" --decoder \"ttls\"",
+      "fitness": [
+        0.110249,
+        -1000000000.0,
+        -1000000000.0
+      ],
+      "hyperparam": "1.000000000-3.000000000-0.000000000-1.000000000-0.000000000-3.000000000-4.000000000-1.000000000-1.000000000-1.000000000-3.000000000-2.000000000-0.000000000",
+      "mean": -666666666.629917,
+      "median": -1000000000.0,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_16"
+    },
+    {
+      "best": -1000000000.0,
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params {\"starting_edges\":96} --extra_app_params {\"output_dimensions\":32,\"tau\":5} --extra_proc_params {\"discrete\":true,\"leak_mode\":\"none\",\"max_delay\":8,\"max_threshold\":8,\"max_weight\":4,\"min_potential\":-4,\"min_weight\":-1} --encoder \"spikes\" --decoder \"ttls\"",
+      "fitness": [
+        -1000000000.0,
+        -1000000000.0,
+        -1000000000.0
+      ],
+      "hyperparam": "1.000000000-4.000000000-0.000000000-0.000000000-1.000000000-3.000000000-3.000000000-2.000000000-1.000000000-2.000000000-2.000000000-3.000000000-0.000000000",
+      "mean": -1000000000.0,
+      "median": -1000000000.0,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_6"
+    },
+    {
+      "best": -2.06067e-16,
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 16 --extra_eons_params {\"starting_edges\":128} --extra_app_params {\"output_dimensions\":2,\"tau\":5} --extra_proc_params {\"discrete\":true,\"leak_mode\":\"none\",\"max_delay\":4,\"max_threshold\":1,\"max_weight\":16,\"min_potential\":-1,\"min_weight\":-2} --encoder \"rate\" --decoder \"ttls\"",
+      "fitness": [
+        -0.158386,
+        -0.151192,
+        -2.06067e-16
+      ],
+      "hyperparam": "2.000000000-0.000000000-0.000000000-0.000000000-1.000000000-2.000000000-0.000000000-4.000000000-3.000000000-1.000000000-1.000000000-2.000000000-0.000000000",
+      "mean": -0.10319266666666675,
+      "median": -0.151192,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_7"
+    },
+    {
+      "best": -0.0674669,
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 16 --extra_eons_params {\"starting_edges\":128} --extra_app_params {\"output_dimensions\":4,\"tau\":10} --extra_proc_params {\"discrete\":true,\"leak_mode\":\"none\",\"max_delay\":2,\"max_threshold\":2,\"max_weight\":8,\"min_potential\":-2,\"min_weight\":-4} --encoder \"spike\" --decoder \"rate\"",
+      "fitness": [
+        -0.0748619,
+        -1000000000.0,
+        -0.0674669
+      ],
+      "hyperparam": "2.000000000-1.000000000-1.000000000-0.000000000-1.000000000-1.000000000-1.000000000-3.000000000-2.000000000-0.000000000-1.000000000-1.000000000-1.000000000",
+      "mean": -333333333.3807762,
+      "median": -0.0748619,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_4"
+    },
+    {
+      "best": -0.0180769,
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 16 --extra_eons_params {\"starting_edges\":128} --extra_app_params {\"output_dimensions\":4,\"tau\":10} --extra_proc_params {\"discrete\":false,\"leak_mode\":\"none\",\"max_delay\":2,\"max_threshold\":8,\"max_weight\":8,\"min_potential\":-4,\"min_weight\":-4} --encoder \"rate\" --decoder \"ttls\"",
+      "fitness": [
+        -0.0180769,
+        -0.0930507,
+        -0.042274
+      ],
+      "hyperparam": "2.000000000-1.000000000-1.000000000-1.000000000-1.000000000-1.000000000-3.000000000-3.000000000-1.000000000-0.000000000-1.000000000-2.000000000-0.000000000",
+      "mean": -0.051133866666666666,
+      "median": -0.042274,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_10"
+    },
+    {
+      "best": -1000000000.0,
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params {\"starting_edges\":128} --extra_app_params {\"output_dimensions\":4,\"tau\":15} --extra_proc_params {\"discrete\":true,\"leak_mode\":\"none\",\"max_delay\":2,\"max_threshold\":2,\"max_weight\":8,\"min_potential\":-4,\"min_weight\":-2} --encoder \"rate\" --decoder \"rate\"",
+      "fitness": [
+        -1000000000.0,
+        -1000000000.0,
+        -1000000000.0
+      ],
+      "hyperparam": "2.000000000-1.000000000-2.000000000-0.000000000-1.000000000-1.000000000-1.000000000-3.000000000-1.000000000-1.000000000-3.000000000-2.000000000-1.000000000",
+      "mean": -1000000000.0,
+      "median": -1000000000.0,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_5"
+    },
+    {
+      "best": -0.578451,
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 32 --extra_eons_params {\"starting_edges\":128} --extra_app_params {\"output_dimensions\":8,\"tau\":15} --extra_proc_params {\"discrete\":true,\"leak_mode\":\"all\",\"max_delay\":2,\"max_threshold\":2,\"max_weight\":1,\"min_potential\":-2,\"min_weight\":-2} --encoder \"spikes\" --decoder \"rate\"",
+      "fitness": [
+        -0.578451,
+        -1000000000.0,
+        -0.867808
+      ],
+      "hyperparam": "2.000000000-2.000000000-2.000000000-0.000000000-0.000000000-1.000000000-1.000000000-0.000000000-2.000000000-1.000000000-2.000000000-3.000000000-1.000000000",
+      "mean": -333333333.8154197,
+      "median": -0.867808,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_24"
+    },
+    {
+      "best": -1000000000.0,
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 64 --extra_eons_params {\"starting_edges\":128} --extra_app_params {\"output_dimensions\":32,\"tau\":15} --extra_proc_params {\"discrete\":true,\"leak_mode\":\"all\",\"max_delay\":4,\"max_threshold\":4,\"max_weight\":1,\"min_potential\":-1,\"min_weight\":-2} --encoder \"spikes\" --decoder \"ttls\"",
+      "fitness": [
+        -1000000000.0,
+        -1000000000.0,
+        -1000000000.0
+      ],
+      "hyperparam": "2.000000000-4.000000000-2.000000000-0.000000000-0.000000000-2.000000000-2.000000000-0.000000000-3.000000000-1.000000000-3.000000000-3.000000000-0.000000000",
+      "mean": -1000000000.0,
+      "median": -1000000000.0,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_18"
+    },
+    {
+      "best": 0.146008,
+      "cmd": "bin/dimensionality_reduction_risp -a train --app_params 37/dimensionality_reduction.json --eons_params 37/eons.json --proc_params 37/risp.json --threads 13 --epochs 10 --sim_time 8 --extra_eons_params {\"starting_edges\":128} --extra_app_params {\"output_dimensions\":32,\"tau\":15} --extra_proc_params {\"discrete\":false,\"leak_mode\":\"all\",\"max_delay\":16,\"max_threshold\":1,\"max_weight\":8,\"min_potential\":-1,\"min_weight\":-4} --encoder \"spike\" --decoder \"ttls\"",
+      "fitness": [
+        0.140324,
+        0.146008,
+        0.140772
+      ],
+      "hyperparam": "2.000000000-4.000000000-2.000000000-1.000000000-0.000000000-4.000000000-0.000000000-3.000000000-3.000000000-0.000000000-0.000000000-1.000000000-0.000000000",
+      "mean": 0.14236800000000002,
+      "median": 0.140772,
+      "network": "/lustre/isaac24/scratch/jhanna8/repos/2026_dr_tests/bayes/dimensionality_reduction/37/networks/dimensionality_reduction_risp_9"
+    }
+  ],
+  "decoder": {
+    "base": [
+      "ttls",
+      "rate"
+    ]
+  },
+  "encoder": {
+    "base": [
+      "val",
+      "spike",
+      "rate",
+      "spikes",
+      "temporal"
+    ]
+  },
+  "eons_params": {
+    "starting_edges": [
+      64,
+      96,
+      128
+    ]
+  },
+  "fitness_metric": "fitness",
+  "iterations_per_test": 3,
+  "num_best_networks": 0,
+  "opt_params": {
+    "n_random_starts": 25,
+    "random_state": 23296
+  },
+  "optimizer": "python ../utils/scikit_opt.py",
+  "proc_params": {
+    "discrete": [
+      true,
+      false
+    ],
+    "leak_mode": [
+      "all",
+      "none"
+    ],
+    "max_delay": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "max_threshold": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "max_weight": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "min_potential": [
+      -8,
+      -4,
+      -2,
+      -1
+    ],
+    "min_weight": [
+      -4,
+      -2,
+      -1
+    ]
+  },
+  "python_app": false,
+  "test_episodes": 0,
+  "test_iteration_type": "none"
+}
